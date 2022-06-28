@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Accessible</title>
+    <link href="https://ildrosos.github.io/testpublii/feed.xml" rel="self" />
+    <link href="https://ildrosos.github.io/testpublii" />
+    <updated>2022-06-08T09:23:30+03:00</updated>
+    <author>
+        <name>Acc</name>
+    </author>
+    <id>https://ildrosos.github.io/testpublii</id>
+
+    <entry>
+        <title>empty</title>
+        <author>
+            <name>Acc</name>
+        </author>
+        <link href="https://ildrosos.github.io/testpublii/empty.html"/>
+        <id>https://ildrosos.github.io/testpublii/empty.html</id>
+
+        <updated>2022-06-08T09:23:30+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ildrosos.github.io/testpublii/media/posts/5/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD.png" alt="" />
+                    kljhljhljlj ghjgj' jhk hklh hkl
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ildrosos.github.io/testpublii/media/posts/5/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD.png" alt="" />
+                <p class="dropcap">kljhljhljlj</p>
+<hr>
+<blockquote>
+<figure class="post__video">jrtfjg</figure>
+<p>ghjgj'</p>
+</blockquote>
+<ol>
+<li>jhk</li>
+<li>hklh</li>
+<li>hkl</li>
+<li>
+<table style="border-collapse: collapse; width: 100.035%;" border="1">
+<tbody>
+<tr>
+<td style="width: 49.9074%;"><figure class="post__image"><img loading="lazy"  src="https://ildrosos.github.io/testpublii/media/posts/5/EIZO-logo-8C28774F8B-seeklogo.com.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-2xl.png 1600w"  alt="" width="245" height="300"></figure></td>
+<td style="width: 49.9074%;"><figure class="post__image"><img loading="lazy"  src="https://ildrosos.github.io/testpublii/media/posts/5/philipsLogo.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-2xl.png 1600w"  alt="" width="1024" height="188"></figure></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ContactUs</title>
+        <author>
+            <name>Acc</name>
+        </author>
+        <link href="https://ildrosos.github.io/testpublii/contactus.html"/>
+        <id>https://ildrosos.github.io/testpublii/contactus.html</id>
+
+        <updated>2022-06-08T09:23:13+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ildrosos.github.io/testpublii/media/posts/4/paizopoli-cake.jpg" alt="" />
+                    First Name Last Name Country Australia Canada USA Subject
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ildrosos.github.io/testpublii/media/posts/4/paizopoli-cake.jpg" alt="" />
+                <div><div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div></div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>EIZO</title>
+        <author>
+            <name>Acc</name>
+        </author>
+        <link href="https://ildrosos.github.io/testpublii/eizo.html"/>
+        <id>https://ildrosos.github.io/testpublii/eizo.html</id>
+
+        <updated>2022-06-08T09:08:22+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ildrosos.github.io/testpublii/media/posts/3/Baby-tameiaki-mihani.png" alt="" />
+                    This is a homepage ca [vc_row][vc_column][vc_row_inner][vc_column_inner width="1/12"][/vc_column_inner][vc_column_inner width="5/6"][revaldak_headings headings_title="Φωτοτυπίες / Ψηφιακές Εκτυπώσεις" headings_title_tag="h1" headings_subtitle="" headings_layout="t-only" revaldak_heading_font_size="25"][vc_column_text]Η Γραφοδυναμική με την τεχνογνωσία η οποία έχει αποκτηθεί κατά τη διάρκεια των ετών, αναλαμβάνει για εσάς που ζητάτε ποιότητα, συνέπεια και οικονομία εξειδικευμένες φωτοτυπικές εργασίες και ψηφιακές εκτυπώσεις σε&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ildrosos.github.io/testpublii/media/posts/3/Baby-tameiaki-mihani.png" alt="" />
+                
+    <h2 id="this-is-a-homepage">
+      This is a homepage
+    </h2>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://ildrosos.github.io/testpublii/media/posts/3/57x40.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-2xl.png 1600w"  height="496" width="496" alt="te" />
+      <figcaption>ca</figcaption>
+    </figure>
+<div>[vc_row][vc_column][vc_row_inner][vc_column_inner width="1/12"][/vc_column_inner][vc_column_inner width="5/6"][revaldak_headings headings_title="Φωτοτυπίες / Ψηφιακές Εκτυπώσεις" headings_title_tag="h1" headings_subtitle="" headings_layout="t-only" revaldak_heading_font_size="25"][vc_column_text]Η Γραφοδυναμική με την τεχνογνωσία η οποία έχει αποκτηθεί κατά τη διάρκεια των ετών, αναλαμβάνει για εσάς που ζητάτε ποιότητα, συνέπεια και οικονομία εξειδικευμένες φωτοτυπικές εργασίες και ψηφιακές εκτυπώσεις σε άριστη ποιότητα και ελάχιστο χρόνο παράδοσης.
+Εκτυπώνουμε αλλά και φωτοτυπούμε όλα τα μεγέθη χαρτιών,ασπρόμαυρα και έγχρωμα με τα καλύτερα μηχανήματα ψηφιακής εκτύπωσης.Μπορούμε να ανταποκριθούμε στις ανάγκες κάθε εργασίας
+
+βιβλίου, Πτυχιακών Εργασιών, εγγράφων, διπλωμάτων, ταυτοτήτων κ.ά.
+Εκτύπωση από αρχεία:&nbsp;pdf, ppt, excel, corel, tiff, jpeg κ.ά.
+Ποιότητα χαρτιού: 80gr έως 300gr, γραφής, illustration, velvet, opalina κ.ά.
+Διαστάσεις: Α4 (21,00 x 29,7) cm, Α3 (29.7 x 42,00) cm, Α6(10,50 x 14,85) cm, Α5 (14,85 x 21,00) cm.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/12"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width="1/12"][/vc_column_inner][vc_column_inner width="5/6"][revaldak_headings headings_title="Φωτοτυπία / Εκτύπωση Αρχιτεκτονικών Σχεδίων / Αφισών" headings_title_tag="h1" headings_subtitle="" headings_layout="t-only" revaldak_heading_font_size="25"][vc_column_text]Με μηχανήματα νέας τεχνολογίας, μπορούμε να φωτοτυπήσουμε όπως και να εκτυπώσουμε για εσάς Τοπογραφικά /Έγχρωμα /Αρχιτεκτονικά σχέδια, Αφίσες σε μεγάλες διαστάσεις με πολύ καλή ανάλυση.
+Ακρίβεια στη χρωματική ανάλυση και στη διάσταση της εκτύπωσης σύμφωνα με το πρωτότυπο (Έγχρωμο ή Ασπρόμαυρο), γρήγορη εξυπηρέτηση και χαμηλές τιμές.[/vc_column_text][/vc_column_inner][vc_column_inner width="1/12"][/vc_column_inner][/vc_row_inner][revaldak_empty_spaces height_mobile="20" height_tablet="40" height_desktop="70"][/vc_column][/vc_row][vc_row full_width="stretch_row" gap="35" css=".vc_custom_1516021801600{padding-top: 50px !important;padding-bottom: 50px !important;background-image: url(http://staging.grafodinamiki.gr/wp-content/uploads/2018/01/footer.jpg?id=3150) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}"][vc_column width="1/3"][revaldak_headings headings_title="Επικοινωνήστε μαζί μας" headings_subtitle="Επικοινωνήστε μαζί μας στο τηλέφωνο 2106138382 ή στο email : info@grafodinamiki.gr" headings_subtitle_tag="p" headings_alignment="left" headings_separator="border" headings_separator_border_color="#49d0e5" revaldak_heading_font_weight="400" revaldak_heading_color="#ffffff" revaldak_sub_heading_font_weight="400" revaldak_sub_heading_color="#ffffff" revaldak_sub_heading_line_height="30" revaldak_heading_spacing="20px" revaldak_heading_font_size="40" revaldak_sub_heading_font_size="16"][/vc_column][vc_column width="2/3"][/vc_column][/vc_row]</div>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>This is another post</title>
+        <author>
+            <name>Acc</name>
+        </author>
+        <link href="https://ildrosos.github.io/testpublii/this-is-another-post.html"/>
+        <id>https://ildrosos.github.io/testpublii/this-is-another-post.html</id>
+
+        <updated>2022-06-08T09:09:15+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ildrosos.github.io/testpublii/media/posts/2/62x50.png" alt="" />
+                    <ul>
+<li>Lets find out how</li>
+<li>Publii can help </li>
+<li>to build static</li>
+<li>sites</li>
+<li>
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ildrosos.github.io/testpublii/media/posts/2/62x50.png" alt="" />
+                <ul>
+<li>Lets find out how</li>
+<li>Publii can help </li>
+<li>to build static</li>
+<li>sites</li>
+<li></li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Post title</title>
+        <author>
+            <name>Acc</name>
+        </author>
+        <link href="https://ildrosos.github.io/testpublii/post-title.html"/>
+        <id>https://ildrosos.github.io/testpublii/post-title.html</id>
+
+        <updated>2022-06-07T15:19:27+03:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                <figure class="post__image post__image--center align-center"><img loading="lazy"  src="https://ildrosos.github.io/testpublii/media/posts/1/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-2xl.png 1600w"  alt="llt" width="500" height="500"></figure>
+            ]]>
+        </content>
+    </entry>
+</feed>
