@@ -16,14 +16,14 @@
             "title": "empty",
             "summary": "kljhljhljlj ghjgj' jhk hklh hkl",
             "content_html": "<p class=\"dropcap\">kljhljhljlj</p>\n<hr>\n<blockquote>\n<figure class=\"post__video\">jrtfjg</figure>\n<p>ghjgj'</p>\n</blockquote>\n<ol>\n<li>jhk</li>\n<li>hklh</li>\n<li>hkl</li>\n<li>\n<table style=\"border-collapse: collapse; width: 100.035%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 49.9074%;\"><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/5/EIZO-logo-8C28774F8B-seeklogo.com.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-2xl.png 1600w\"  alt=\"\" width=\"245\" height=\"300\"></figure></td>\n<td style=\"width: 49.9074%;\"><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/5/philipsLogo.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-2xl.png 1600w\"  alt=\"\" width=\"1024\" height=\"188\"></figure></td>\n</tr>\n</tbody>\n</table>\n</li>\n</ol>",
-            "image": "https://ildrosos.github.io/testpublii/media/posts/5/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD.png",
+            "image": "https://ildrosos.github.io/testpublii/media/posts/5/2022-06-29-12_28_42-domain-migration.png",
             "author": {
                 "name": "Acc"
             },
             "tags": [
             ],
             "date_published": "2022-06-08T09:12:21+03:00",
-            "date_modified": "2022-06-08T09:23:30+03:00"
+            "date_modified": "2022-06-29T12:29:15+03:00"
         },
         {
             "id": "https://ildrosos.github.io/testpublii/contactus.html",
@@ -58,7 +58,7 @@
         {
             "id": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
             "url": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
-            "title": "This is another post",
+            "title": "Integrating life in technology",
             "summary": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n<li>",
             "content_html": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n<li></li>\n</ul>",
             "image": "https://ildrosos.github.io/testpublii/media/posts/2/62x50.png",
@@ -68,7 +68,7 @@
             "tags": [
             ],
             "date_published": "2022-06-07T15:34:40+03:00",
-            "date_modified": "2022-06-08T09:09:15+03:00"
+            "date_modified": "2022-06-29T09:59:39+03:00"
         },
         {
             "id": "https://ildrosos.github.io/testpublii/post-title.html",
