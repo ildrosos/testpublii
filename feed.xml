@@ -3,7 +3,7 @@
     <title>Accessible</title>
     <link href="https://ildrosos.github.io/testpublii/feed.xml" rel="self" />
     <link href="https://ildrosos.github.io/testpublii" />
-    <updated>2022-06-29T13:30:10+03:00</updated>
+    <updated>2022-06-30T16:13:16+03:00</updated>
     <author>
         <name>Acc</name>
     </author>
@@ -142,27 +142,25 @@
         <link href="https://ildrosos.github.io/testpublii/this-is-another-post.html"/>
         <id>https://ildrosos.github.io/testpublii/this-is-another-post.html</id>
 
-        <updated>2022-06-29T09:59:39+03:00</updated>
+        <updated>2022-06-30T16:13:16+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ildrosos.github.io/testpublii/media/posts/2/62x50.png" alt="" />
+                        <img src="https://ildrosos.github.io/testpublii/media/posts/2/ExchangeAdminCenter-Ghost.png" alt="" />
                     <ul>
 <li>Lets find out how</li>
 <li>Publii can help </li>
 <li>to build static</li>
-<li>sites</li>
-<li>
+<li>sites
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://ildrosos.github.io/testpublii/media/posts/2/62x50.png" alt="" />
+                    <img src="https://ildrosos.github.io/testpublii/media/posts/2/ExchangeAdminCenter-Ghost.png" alt="" />
                 <ul>
 <li>Lets find out how</li>
 <li>Publii can help </li>
 <li>to build static</li>
 <li>sites</li>
-<li></li>
 </ul>
             ]]>
         </content>

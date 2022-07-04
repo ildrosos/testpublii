@@ -60,16 +60,16 @@
             "id": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
             "url": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
             "title": "Integrating life in technology",
-            "summary": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n<li>",
-            "content_html": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n<li></li>\n</ul>",
-            "image": "https://ildrosos.github.io/testpublii/media/posts/2/62x50.png",
+            "summary": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites",
+            "content_html": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n</ul>",
+            "image": "https://ildrosos.github.io/testpublii/media/posts/2/ExchangeAdminCenter-Ghost.png",
             "author": {
                 "name": "Acc"
             },
             "tags": [
             ],
             "date_published": "2022-06-07T15:34:40+03:00",
-            "date_modified": "2022-06-29T09:59:39+03:00"
+            "date_modified": "2022-06-30T16:13:16+03:00"
         },
         {
             "id": "https://ildrosos.github.io/testpublii/post-title.html",
