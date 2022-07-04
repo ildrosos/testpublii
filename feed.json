@@ -1,24 +1,24 @@
 {
     "version": "https://jsonfeed.org/version/1",
-    "title": "Accessible",
+    "title": "Drontoso",
     "description": "",
     "home_page_url": "https://ildrosos.github.io/testpublii",
     "feed_url": "https://ildrosos.github.io/testpublii/feed.json",
     "user_comment": "",
     "icon": "https://ildrosos.github.io/testpublii/media/website/EIZO-logo-8C28774F8B-seeklogo.com.png",
     "author": {
-        "name": "Acc"
+        "name": "Ilias Drosos"
     },
     "items": [
         {
-            "id": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared.html",
-            "url": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared.html",
+            "id": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared/",
+            "url": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared/",
             "title": "Exchange Server Databases &quot;Dissappeared&quot;",
             "summary": "After logging in to exchange on premise (ECP) you might see the picture below when navigating to Servers - &gt; Databases In addition if you check through Exchange management shell you might get the error below or similar like we did : So it seems&hellip;",
             "content_html": "<p>After logging in to exchange on premise (ECP) you might see the picture below when navigating to Servers - &gt; Databases</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/exc.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-2xl.jpg 1600w\"  alt=\"\" width=\"881\" height=\"483\"></figure>\n<p>In addition if you check through Exchange management shell you might get the error below or similar like we did : </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/excdb-2.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-2xl.jpg 1600w\"  alt=\"\" width=\"950\" height=\"161\"></figure>\n<p>So it seems there is an old reference to a database which has been deleted in our case . But why should this interfere with the rest of our Databases?</p>\n<p>We deleted the reference to the old database - Make sure it is an old reference which is no longer needed before deletion - by navigating to ADSI Edit : </p>\n<p>On a Domain Controller, Open ADSIEdit.msc and Connect to ‘Configuration’.</p>\n<p>Navigate to Configuration &gt; Services &gt; Microsoft Exchange &gt; {Organisation name} &gt; Administrative Groups &gt; {Administrative-Group-Name} &gt; Databases  &gt;Delete the old database reference . </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/excADSI.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-2xl.jpg 1600w\"  alt=\"\" width=\"665\" height=\"327\"> </figure>\n<p>After 5 minutes logout and relogin to ECP and check again . Your databases should be visible now :D . </p>",
             "image": "https://ildrosos.github.io/testpublii/media/posts/6/microsoft-exchange-logo.png",
             "author": {
-                "name": "Acc"
+                "name": "Ilias Drosos"
             },
             "tags": [
                    "Exchange On Premise"
@@ -27,14 +27,14 @@
             "date_modified": "2022-07-04T11:14:18+03:00"
         },
         {
-            "id": "https://ildrosos.github.io/testpublii/empty.html",
-            "url": "https://ildrosos.github.io/testpublii/empty.html",
+            "id": "https://ildrosos.github.io/testpublii/empty/",
+            "url": "https://ildrosos.github.io/testpublii/empty/",
             "title": "empty",
             "summary": "kljhljhljlj ghjgj' jhk hklh hkl",
             "content_html": "<p class=\"dropcap\">kljhljhljlj</p>\n<hr>\n<blockquote>\n<figure class=\"post__video\">jrtfjg</figure>\n<p>ghjgj'</p>\n</blockquote>\n<ol>\n<li>jhk</li>\n<li>hklh</li>\n<li>hkl</li>\n<li>\n<table style=\"border-collapse: collapse; width: 100.035%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 49.9074%;\"><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/5/EIZO-logo-8C28774F8B-seeklogo.com.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/EIZO-logo-8C28774F8B-seeklogo.com-2xl.png 1600w\"  alt=\"\" width=\"245\" height=\"300\"></figure></td>\n<td style=\"width: 49.9074%;\"><figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/5/philipsLogo.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/5/responsive/philipsLogo-2xl.png 1600w\"  alt=\"\" width=\"1024\" height=\"188\"></figure></td>\n</tr>\n</tbody>\n</table>\n</li>\n</ol>",
             "image": "https://ildrosos.github.io/testpublii/media/posts/5/2022-06-29-12_28_42-domain-migration.png",
             "author": {
-                "name": "Acc"
+                "name": "Ilias Drosos"
             },
             "tags": [
             ],
@@ -42,29 +42,14 @@
             "date_modified": "2022-06-29T12:29:15+03:00"
         },
         {
-            "id": "https://ildrosos.github.io/testpublii/contactus.html",
-            "url": "https://ildrosos.github.io/testpublii/contactus.html",
-            "title": "ContactUs",
-            "summary": "First Name Last Name Country Australia Canada USA Subject",
-            "content_html": "<div><div class=\"container\">\n  <form action=\"action_page.php\">\n\n    <label for=\"fname\">First Name</label>\n    <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\">\n\n    <label for=\"lname\">Last Name</label>\n    <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\">\n\n    <label for=\"country\">Country</label>\n    <select id=\"country\" name=\"country\">\n      <option value=\"australia\">Australia</option>\n      <option value=\"canada\">Canada</option>\n      <option value=\"usa\">USA</option>\n    </select>\n\n    <label for=\"subject\">Subject</label>\n    <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea>\n\n    <input type=\"submit\" value=\"Submit\">\n\n  </form>\n</div></div>",
-            "image": "https://ildrosos.github.io/testpublii/media/posts/4/paizopoli-cake.jpg",
-            "author": {
-                "name": "Acc"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-06-07T15:43:22+03:00",
-            "date_modified": "2022-06-08T09:23:13+03:00"
-        },
-        {
-            "id": "https://ildrosos.github.io/testpublii/eizo.html",
-            "url": "https://ildrosos.github.io/testpublii/eizo.html",
+            "id": "https://ildrosos.github.io/testpublii/eizo/",
+            "url": "https://ildrosos.github.io/testpublii/eizo/",
             "title": "EIZO",
             "summary": "This is a homepage ca [vc_row][vc_column][vc_row_inner][vc_column_inner width=\"1/12\"][/vc_column_inner][vc_column_inner width=\"5/6\"][revaldak_headings headings_title=\"Φωτοτυπίες / Ψηφιακές Εκτυπώσεις\" headings_title_tag=\"h1\" headings_subtitle=\"\" headings_layout=\"t-only\" revaldak_heading_font_size=\"25\"][vc_column_text]Η Γραφοδυναμική με την τεχνογνωσία η οποία έχει αποκτηθεί κατά τη διάρκεια των ετών, αναλαμβάνει για εσάς που ζητάτε ποιότητα, συνέπεια και οικονομία εξειδικευμένες φωτοτυπικές εργασίες και ψηφιακές εκτυπώσεις σε&hellip;",
             "content_html": "\n    <h2 id=\"this-is-a-homepage\">\n      This is a homepage\n    </h2>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://ildrosos.github.io/testpublii/media/posts/3/57x40.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/3/responsive/57x40-2xl.png 1600w\"  height=\"496\" width=\"496\" alt=\"te\" />\n      <figcaption>ca</figcaption>\n    </figure>\n<div>[vc_row][vc_column][vc_row_inner][vc_column_inner width=\"1/12\"][/vc_column_inner][vc_column_inner width=\"5/6\"][revaldak_headings headings_title=\"Φωτοτυπίες / Ψηφιακές Εκτυπώσεις\" headings_title_tag=\"h1\" headings_subtitle=\"\" headings_layout=\"t-only\" revaldak_heading_font_size=\"25\"][vc_column_text]Η Γραφοδυναμική με την τεχνογνωσία η οποία έχει αποκτηθεί κατά τη διάρκεια των ετών, αναλαμβάνει για εσάς που ζητάτε ποιότητα, συνέπεια και οικονομία εξειδικευμένες φωτοτυπικές εργασίες και ψηφιακές εκτυπώσεις σε άριστη ποιότητα και ελάχιστο χρόνο παράδοσης.\nΕκτυπώνουμε αλλά και φωτοτυπούμε όλα τα μεγέθη χαρτιών,ασπρόμαυρα και έγχρωμα με τα καλύτερα μηχανήματα ψηφιακής εκτύπωσης.Μπορούμε να ανταποκριθούμε στις ανάγκες κάθε εργασίας\n\nβιβλίου, Πτυχιακών Εργασιών, εγγράφων, διπλωμάτων, ταυτοτήτων κ.ά.\nΕκτύπωση από αρχεία:&nbsp;pdf, ppt, excel, corel, tiff, jpeg κ.ά.\nΠοιότητα χαρτιού: 80gr έως 300gr, γραφής, illustration, velvet, opalina κ.ά.\nΔιαστάσεις: Α4 (21,00 x 29,7) cm, Α3 (29.7 x 42,00) cm, Α6(10,50 x 14,85) cm, Α5 (14,85 x 21,00) cm.[/vc_column_text][/vc_column_inner][vc_column_inner width=\"1/12\"][/vc_column_inner][/vc_row_inner][vc_row_inner][vc_column_inner width=\"1/12\"][/vc_column_inner][vc_column_inner width=\"5/6\"][revaldak_headings headings_title=\"Φωτοτυπία / Εκτύπωση Αρχιτεκτονικών Σχεδίων / Αφισών\" headings_title_tag=\"h1\" headings_subtitle=\"\" headings_layout=\"t-only\" revaldak_heading_font_size=\"25\"][vc_column_text]Με μηχανήματα νέας τεχνολογίας, μπορούμε να φωτοτυπήσουμε όπως και να εκτυπώσουμε για εσάς Τοπογραφικά /Έγχρωμα /Αρχιτεκτονικά σχέδια, Αφίσες σε μεγάλες διαστάσεις με πολύ καλή ανάλυση.\nΑκρίβεια στη χρωματική ανάλυση και στη διάσταση της εκτύπωσης σύμφωνα με το πρωτότυπο (Έγχρωμο ή Ασπρόμαυρο), γρήγορη εξυπηρέτηση και χαμηλές τιμές.[/vc_column_text][/vc_column_inner][vc_column_inner width=\"1/12\"][/vc_column_inner][/vc_row_inner][revaldak_empty_spaces height_mobile=\"20\" height_tablet=\"40\" height_desktop=\"70\"][/vc_column][/vc_row][vc_row full_width=\"stretch_row\" gap=\"35\" css=\".vc_custom_1516021801600{padding-top: 50px !important;padding-bottom: 50px !important;background-image: url(http://staging.grafodinamiki.gr/wp-content/uploads/2018/01/footer.jpg?id=3150) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}\"][vc_column width=\"1/3\"][revaldak_headings headings_title=\"Επικοινωνήστε μαζί μας\" headings_subtitle=\"Επικοινωνήστε μαζί μας στο τηλέφωνο 2106138382 ή στο email : info@grafodinamiki.gr\" headings_subtitle_tag=\"p\" headings_alignment=\"left\" headings_separator=\"border\" headings_separator_border_color=\"#49d0e5\" revaldak_heading_font_weight=\"400\" revaldak_heading_color=\"#ffffff\" revaldak_sub_heading_font_weight=\"400\" revaldak_sub_heading_color=\"#ffffff\" revaldak_sub_heading_line_height=\"30\" revaldak_heading_spacing=\"20px\" revaldak_heading_font_size=\"40\" revaldak_sub_heading_font_size=\"16\"][/vc_column][vc_column width=\"2/3\"][/vc_column][/vc_row]</div>",
             "image": "https://ildrosos.github.io/testpublii/media/posts/3/yammer-cover.png",
             "author": {
-                "name": "Acc"
+                "name": "Ilias Drosos"
             },
             "tags": [
                    "tesr"
@@ -73,27 +58,12 @@
             "date_modified": "2022-06-29T13:30:10+03:00"
         },
         {
-            "id": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
-            "url": "https://ildrosos.github.io/testpublii/this-is-another-post.html",
-            "title": "Integrating life in technology",
-            "summary": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites",
-            "content_html": "<ul>\n<li>Lets find out how</li>\n<li>Publii can help </li>\n<li>to build static</li>\n<li>sites</li>\n</ul>",
-            "image": "https://ildrosos.github.io/testpublii/media/posts/2/ExchangeAdminCenter-Ghost.png",
-            "author": {
-                "name": "Acc"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-06-07T15:34:40+03:00",
-            "date_modified": "2022-06-30T16:13:16+03:00"
-        },
-        {
-            "id": "https://ildrosos.github.io/testpublii/post-title.html",
-            "url": "https://ildrosos.github.io/testpublii/post-title.html",
+            "id": "https://ildrosos.github.io/testpublii/post-title/",
+            "url": "https://ildrosos.github.io/testpublii/post-title/",
             "title": "Post title",
             "content_html": "<figure class=\"post__image post__image--center align-center\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/1/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-xs.png 300w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-sm.png 480w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-md.png 768w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-lg.png 1024w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-xl.png 1360w ,https://ildrosos.github.io/testpublii/media/posts/1/responsive/Eizo-FlexScan-EV2313W-grey-VGA-DVI-1920x1080-Full-HD-2xl.png 1600w\"  alt=\"llt\" width=\"500\" height=\"500\"></figure>",
             "author": {
-                "name": "Acc"
+                "name": "Ilias Drosos"
             },
             "tags": [
             ],
