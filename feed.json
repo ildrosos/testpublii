@@ -11,6 +11,22 @@
     },
     "items": [
         {
+            "id": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared.html",
+            "url": "https://ildrosos.github.io/testpublii/exchange-server-databases-dissappeared.html",
+            "title": "Exchange Server Databases &quot;Dissappeared&quot;",
+            "summary": "After logging in to exchange on premise (ECP) you might see the picture below when navigating to Servers - &gt; Databases In addition if you check through Exchange management shell you might get the error below or similar like we did : So it seems&hellip;",
+            "content_html": "<p>After logging in to exchange on premise (ECP) you might see the picture below when navigating to Servers - &gt; Databases</p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/exc.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/exc-2xl.jpg 1600w\"  alt=\"\" width=\"881\" height=\"483\"></figure>\n<p>In addition if you check through Exchange management shell you might get the error below or similar like we did : </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/excdb-2.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excdb-2-2xl.jpg 1600w\"  alt=\"\" width=\"950\" height=\"161\"></figure>\n<p>So it seems there is an old reference to a database which has been deleted in our case . But why should this interfere with the rest of our Databases?</p>\n<p>We deleted the reference to the old database - Make sure it is an old reference which is no longer needed before deletion - by navigating to ADSI Edit : </p>\n<p>On a Domain Controller, Open ADSIEdit.msc and Connect to ‘Configuration’.</p>\n<p>Navigate to Configuration &gt; Services &gt; Microsoft Exchange &gt; {Organisation name} &gt; Administrative Groups &gt; {Administrative-Group-Name} &gt; Databases  &gt;Delete the old database reference . </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://ildrosos.github.io/testpublii/media/posts/6/excADSI.jpg\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-xs.jpg 300w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-sm.jpg 480w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-md.jpg 768w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-lg.jpg 1024w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-xl.jpg 1360w ,https://ildrosos.github.io/testpublii/media/posts/6/responsive/excADSI-2xl.jpg 1600w\"  alt=\"\" width=\"665\" height=\"327\"> </figure>\n<p>After 5 minutes logout and relogin to ECP and check again . Your databases should be visible now :D . </p>",
+            "image": "https://ildrosos.github.io/testpublii/media/posts/6/microsoft-exchange-logo.png",
+            "author": {
+                "name": "Acc"
+            },
+            "tags": [
+                   "Exchange On Premise"
+            ],
+            "date_published": "2022-07-04T11:12:04+03:00",
+            "date_modified": "2022-07-04T11:14:18+03:00"
+        },
+        {
             "id": "https://ildrosos.github.io/testpublii/empty.html",
             "url": "https://ildrosos.github.io/testpublii/empty.html",
             "title": "empty",
