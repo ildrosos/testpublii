@@ -3,12 +3,44 @@
     <title>Drontoso</title>
     <link href="https://testpublii.pages.dev/feed.xml" rel="self" />
     <link href="https://testpublii.pages.dev" />
-    <updated>2022-07-12T14:34:39+03:00</updated>
+    <updated>2022-07-12T16:35:39+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://testpublii.pages.dev</id>
 
+    <entry>
+        <title>Move CodeTwo Office 365 Migration tool to another computer (not an exchange server)</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://testpublii.pages.dev/exchange-server-databases-dissappeared-3.html"/>
+        <id>https://testpublii.pages.dev/exchange-server-databases-dissappeared-3.html</id>
+            <category term="CodeTwoOffice365Migration"/>
+
+        <updated>2022-07-12T16:35:39+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://testpublii.pages.dev/media/posts/8/MoveCodeTwoToAnothercomputer.png" alt="Exchange" />
+                    If you need to move CodeTwo Office 365 Migration tool to another computer but do not want to purge mailboxes which were already processed and start over (to avoid duplicates creation) you need to follow the workaround mentioned in the document below to migrate settings&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://testpublii.pages.dev/media/posts/8/MoveCodeTwoToAnothercomputer.png" alt="Exchange" />
+                <p>If you need to move CodeTwo Office 365 Migration tool to another computer but do not want to purge mailboxes which were already processed and start over (to avoid duplicates creation) you need to follow the workaround mentioned in the document below to migrate settings and cache objects of the software to the new computer: <a href="https://www.codetwo.com/userguide/exchange-rules-pro/reinstall-or-move.htm" target="_blank" rel="noopener noreferrer">CodeTwo Documentation</a></p>
+<p>What CodeTwo does not mention in the article is that you need to have Messaging Api And Collaboration Data Objects 1.2.1 installed on the computer in case you are trying to migrate from Exchange 2003 or 2007. </p>
+<p>If you already have office installed on your computer you need to remove it first before installing CodeTwo as per the guide's instructions. If you don't <strong>like I did </strong>Messaging Api won't be installed automatically and you won't be able to start the jobs or reconfigure the source server connection. </p>
+<figure class="post__image"><img loading="lazy"  src="https://testpublii.pages.dev/media/posts/8/MessagingAndCollaborationAPI.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-xs.png 300w ,https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-sm.png 480w ,https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-md.png 768w ,https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-lg.png 1024w ,https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-xl.png 1360w ,https://testpublii.pages.dev/media/posts/8/responsive/MessagingAndCollaborationAPI-2xl.png 1600w"  alt="MessagingAndCollaborationAPI" width="853" height="394"></figure>
+<p>You can always remove and reinstall after removing Office from the "host" computer but you can also navigate to Add/Remove Programs and repair the installation of CodeTwo . If you do so a message will popup which indicates that Messaging Api And Collaboration Data Objects 1.2.1 is not installed on the computer and ask if you want the software to be installed. If you do so source server connection will be established .</p>
+<p>When you try to restart your jobs you will get another error indicating that a certificate with a particular thumbprint is missing from the computer so the jobs will fail to start. </p>
+<figure class="post__image align-center"><img loading="lazy"  src="https://testpublii.pages.dev/media/posts/8/CodeTwoMissingCertError.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-xs.png 300w ,https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-sm.png 480w ,https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-md.png 768w ,https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-lg.png 1024w ,https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-xl.png 1360w ,https://testpublii.pages.dev/media/posts/8/responsive/CodeTwoMissingCertError-2xl.png 1600w"  alt="CodeTwoMissingCertError" width="385" height="168"></figure>
+<p>You can then export the required certificate and import it to your "host" computer under User/Personal store. </p>
+<figure class="post__image"><img loading="lazy"  src="https://testpublii.pages.dev/media/posts/8/ExportCodeTwoCertFromSourceServer.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,https://testpublii.pages.dev/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"  alt="ExportCodeTwoCertFromSource" width="1034" height="622"></figure>
+<p>After that all migrations will start like you were in your old machine and mail duplicates won't exist. No need to purge your mailboxes either this way. </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Email messages sent through Outlook have a padlock icon next to the message but message was not sent encrypted. </title>
         <author>
