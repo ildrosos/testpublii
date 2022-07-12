@@ -11,6 +11,22 @@
     },
     "items": [
         {
+            "id": "https://testpublii.pages.dev/exchange-server-databases-dissappeared-2.html",
+            "url": "https://testpublii.pages.dev/exchange-server-databases-dissappeared-2.html",
+            "title": "Email messages sent through Outlook have a padlock icon next to the message but message was not sent encrypted. ",
+            "summary": "Sometimes you choose to send a message through outlook with a digital signature but without enryption. If you check your sent messages there is a padlock icon next to each message but you've sent the message without encryption : This is happening because the following&hellip;",
+            "content_html": "<p><span style=\"color: var(--text-primary-color); font-family: var(--editor-font-family); font-size: inherit; font-weight: var(--font-weight-normal);\">Sometimes you choose to send a message through outlook with a digital signature but without enryption. </span></p>\n<p>If you check your sent messages there is a padlock icon next to each message but you've sent the message without encryption : </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://testpublii.pages.dev/media/posts/7/outlook-padlock.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-xs.png 300w ,https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-sm.png 480w ,https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-md.png 768w ,https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-lg.png 1024w ,https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-xl.png 1360w ,https://testpublii.pages.dev/media/posts/7/responsive/outlook-padlock-2xl.png 1600w\"  alt=\"outlook-papdlockicon\" width=\"1033\" height=\"455\"></figure>\n<p>This is happening because the following option is not checked : </p>\n<figure class=\"post__image\"><img loading=\"lazy\"  src=\"https://testpublii.pages.dev/media/posts/7/smime-check.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://testpublii.pages.dev/media/posts/7/responsive/smime-check-xs.png 300w ,https://testpublii.pages.dev/media/posts/7/responsive/smime-check-sm.png 480w ,https://testpublii.pages.dev/media/posts/7/responsive/smime-check-md.png 768w ,https://testpublii.pages.dev/media/posts/7/responsive/smime-check-lg.png 1024w ,https://testpublii.pages.dev/media/posts/7/responsive/smime-check-xl.png 1360w ,https://testpublii.pages.dev/media/posts/7/responsive/smime-check-2xl.png 1600w\"  alt=\"smime-check\" width=\"823\" height=\"669\"></figure>\n<p>To resolve the issue navigate to : </p>\n<p>Outlook</p>\n<p>File - Options - Trust center - Trust Center Settings - Email Security and activate </p>\n<p>Send clear text signed message when sending signed messages. </p>",
+            "image": "https://testpublii.pages.dev/media/posts/7/outlook-padlock-res.png",
+            "author": {
+                "name": "Ilias Drosos"
+            },
+            "tags": [
+                   "Outlook"
+            ],
+            "date_published": "2022-07-12T14:14:03+03:00",
+            "date_modified": "2022-07-12T14:34:39+03:00"
+        },
+        {
             "id": "https://testpublii.pages.dev/exchange-server-databases-dissappeared.html",
             "url": "https://testpublii.pages.dev/exchange-server-databases-dissappeared.html",
             "title": "Exchange Server Databases &quot;Dissappeared&quot;",
