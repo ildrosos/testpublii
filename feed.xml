@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2022-07-19T14:12:32+03:00</updated>
+    <updated>2022-07-19T14:15:25+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -284,7 +284,7 @@
         <id>https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/</id>
             <category term="CodeTwoOffice365Migration"/>
 
-        <updated>2022-07-19T14:12:32+03:00</updated>
+        <updated>2022-07-19T14:15:25+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" alt="" />
@@ -300,9 +300,7 @@
 <figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/MessagingAndCollaborationAPI-6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-2xl.png 1600w"  alt="MessagingAndCollaborationApi" width="1007" height="640"></figure>
 <p>You can always remove and reinstall after removing Office from the "host" computer but you can also navigate to Add/Remove Programs and repair the installation of CodeTwo . If you do so a message will popup which indicates that Messaging Api And Collaboration Data Objects 1.2.1 is not installed on the computer and ask if you want the software to be installed. If you do so source server connection will be established .</p>
 <p>When you try to restart your jobs you will get another error indicating that a certificate with a particular thumbprint is missing from the computer so the jobs will fail to start. </p>
-<figure class="post__image align-center"><img loading="lazy"  src="file:///C:/Users/ilias/OneDrive - ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/CodeTwoMissingCertError.png" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-xs.png 300w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-sm.png 480w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-md.png 768w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-lg.png 1024w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-xl.png 1360w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/CodeTwoMissingCertError-2xl.png 1600w"  alt="CodeTwoMissingCertError" width="385" height="168"></figure>
 <p>You can then export the required certificate and import it to your "host" computer under User/Personal store. </p>
-<figure class="post__image"><img loading="lazy"  src="file:///C:/Users/ilias/OneDrive - ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/ExportCodeTwoCertFromSourceServer.png" sizes="(max-width: 48em) 100vw, 768px" srcset="file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,file:///C:/Users/ilias/OneDrive%20-%20ildrosostestdev/Documents/Publii/sites/drontoso/input/media/posts/8/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"  alt="ExportCodeTwoCertFromSource" width="1034" height="622"></figure>
 <p>After that all migrations will start like you were in your old machine and mail duplicates won't exist. No need to purge your mailboxes either this way. </p>
             ]]>
         </content>
