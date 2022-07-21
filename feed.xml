@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2022-07-19T14:15:25+03:00</updated>
+    <updated>2022-07-21T12:31:23+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -284,7 +284,7 @@
         <id>https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/</id>
             <category term="CodeTwoOffice365Migration"/>
 
-        <updated>2022-07-19T14:15:25+03:00</updated>
+        <updated>2022-07-21T12:28:48+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" alt="" />
@@ -300,7 +300,9 @@
 <figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/MessagingAndCollaborationAPI-6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-2xl.png 1600w"  alt="MessagingAndCollaborationApi" width="1007" height="640"></figure>
 <p>You can always remove and reinstall after removing Office from the "host" computer but you can also navigate to Add/Remove Programs and repair the installation of CodeTwo . If you do so a message will popup which indicates that Messaging Api And Collaboration Data Objects 1.2.1 is not installed on the computer and ask if you want the software to be installed. If you do so source server connection will be established .</p>
 <p>When you try to restart your jobs you will get another error indicating that a certificate with a particular thumbprint is missing from the computer so the jobs will fail to start. </p>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/CodeTwoMissingCertError.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-2xl.png 1600w"  alt="CodeTwoMissingCertError" width="385" height="168"></figure>
 <p>You can then export the required certificate and import it to your "host" computer under User/Personal store. </p>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/ExportCodeTwoCertFromSourceServer.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"  alt="ExportCodeTwoCertFromSourceServer" width="1034" height="622"></figure>
 <p>After that all migrations will start like you were in your old machine and mail duplicates won't exist. No need to purge your mailboxes either this way. </p>
             ]]>
         </content>
@@ -314,7 +316,7 @@
         <id>https://drontoso.gr/email-messages-sent-through-outlook-have-a-padlock-icon-next-to-the-message-but-message-was-not-sent-encrypted/</id>
             <category term="Outlook"/>
 
-        <updated>2022-07-12T16:40:19+03:00</updated>
+        <updated>2022-07-21T12:31:12+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/9/outlook-padlock-res.png" alt="" />
@@ -326,9 +328,10 @@
                     <img src="https://drontoso.gr/media/posts/9/outlook-padlock-res.png" alt="" />
                 <p>Sometimes you choose to send a message through outlook with a digital signature but without enryption. </p>
 <p>If you check your sent messages there is a padlock icon next to each message but you've sent the message without encryption : </p>
-<p><img loading="lazy" src="https://testpublii.pages.dev/media/posts/7/outlook-padlock.png" data-is-external-image="true"  alt="outlook-papdlockicon"></p>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/outlook-padlock.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-2xl.png 1600w"  alt="outlook-padlock" width="1033" height="455"></figure>
+<p> </p>
 <p>This is happening because the following option is not checked : </p>
-<p><img loading="lazy" src="https://testpublii.pages.dev/media/posts/7/smime-check.png" data-is-external-image="true"  alt="smime-check"></p>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/smime-check.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/smime-check-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/smime-check-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/smime-check-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/smime-check-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/smime-check-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/smime-check-2xl.png 1600w"  alt="TrustCenterSettings" width="823" height="669"></figure>
 <p>To resolve the issue navigate to : </p>
 <p>Outlook</p>
 <p>File - Options - Trust center - Trust Center Settings - Email Security and activate </p>
@@ -345,7 +348,7 @@
         <id>https://drontoso.gr/exchange-server-databases-dissappeared/</id>
             <category term="Exchange On Premise"/>
 
-        <updated>2022-07-04T12:46:33+03:00</updated>
+        <updated>2022-07-21T12:31:23+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/6/microsoft-exchange-logo_resized.png" alt="Exchange" />
