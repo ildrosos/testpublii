@@ -11,6 +11,24 @@
     },
     "items": [
         {
+            "id": "https://drontoso.gr/exchange-public-folders-migration-sourcesidevalidation-script-shows-orphanedmpf-folders/",
+            "url": "https://drontoso.gr/exchange-public-folders-migration-sourcesidevalidation-script-shows-orphanedmpf-folders/",
+            "title": "Exchange Public Folders Migration - SourceSideValidation script shows OrphanedMPF folders.",
+            "summary": "So you are trying to run SourceSideVaildation.ps1 script provided from MS&nbsp;and find out OrphanedMPF objects that the script indicates that need to be cleaned up . The output of the script shows something like this :&nbsp; As granikos explains in more detail : https://granikos.eu/exchange-public-folder-meso-object-not-deleted/ So&hellip;",
+            "content_html": "\n  <p>\n    So you are trying to run SourceSideVaildation.ps1 script provided from <a href=\"https://techcommunity.microsoft.com/t5/exchange-team-blog/making-your-public-folder-migrations-faster-and-more-reliable/ba-p/917622\" target=\"_blank\">MS</a>&nbsp;and find out OrphanedMPF objects that the script indicates that need to be cleaned up . The output of the script shows something like this :&nbsp;\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/12/OrphanedMPFs.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-2xl.png 1600w\"  height=\"36\" width=\"744\" alt=\"OrphanedMPFs\" />\n      \n    </figure>\n\n  <p>\n    As granikos explains in more detail : <a href=\"https://As granikos explains in more detail : https://granikos.eu/exchange-public-folder-meso-object-not-deleted/\">https://granikos.eu/exchange-public-folder-meso-object-not-deleted/</a>\n  </p>\n\n  <p>\n    So the next thing to do is to find the orphaned entries and delete them .&nbsp;\n  </p>\n\n  <p>\n    So after searching ADSI in the appropriate path I found 2 entries as expected :&nbsp;\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/12/PublicFoldersADSI.png\" sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-2xl.png 1600w\"  height=\"448\" width=\"1027\" alt=\"\" />\n      \n    </figure>\n\n  <p>\n    <br>\n  </p>\n\n  <p>\n    The right one to delete is the one without random numbers after it's name but to be sure check the when created date. As you noticed the one with the random numbers was indeed created after the one without numbers. This confirms that the one without random numbers is the right one that needs to be deleted.&nbsp;\n  </p>\n\n  <p>\n    In my case after re-running the script the folder with the number re-appeared in suggestions . This confirms that the folder is no longer mail-enabled and the entries have to be deleted (both) . But to be sure check if the public folder is mail-enabled before deleting both entries.\n  </p>\n\n  <p>\n    \n  </p>\n\n  <p>\n    \n  </p>",
+            "image": "https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png",
+            "author": {
+                "name": "Ilias Drosos"
+            },
+            "tags": [
+                   "PublicFolders Migration",
+                   "ExchangeOnline",
+                   "Exchange On Premise"
+            ],
+            "date_published": "2022-10-25T11:38:45+03:00",
+            "date_modified": "2022-10-25T13:31:57+03:00"
+        },
+        {
             "id": "https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/",
             "url": "https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/",
             "title": "Manage Exhange Online Mailbox Quotas based on group membership through Powershell",
