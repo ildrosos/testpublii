@@ -3,12 +3,127 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2022-10-31T12:51:10+02:00</updated>
+    <updated>2022-10-31T17:02:36+02:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://drontoso.gr</id>
 
+    <entry>
+        <title>Automatically package and install Windows Apps to Intune Devices (without Microsoft Win32 Content Prep Tool) - intunepckgr.com</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/"/>
+        <id>https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/</id>
+            <category term="Microsoft Intune"/>
+
+        <updated>2022-10-31T17:02:36+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" alt="" />
+                    What if I told you that there is a service which can package and install all popular Windows Apps as Win32 Apps to your Intune Devices with just a few clicks? What if it can also maintain and automatically update the apps whenever a new&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" alt="" />
+                
+  <p>
+    What if I told you that there is a service which can package and install all popular Windows Apps as Win32 Apps to your Intune Devices with just a few clicks?
+  </p>
+
+  <p>
+    What if it can also maintain and automatically update the apps whenever a new version is available ?&nbsp;
+  </p>
+
+  <p>
+    And what If the tool could do the same for all your InTune tenants ?&nbsp;
+  </p>
+
+    <blockquote class="blockquote">
+      <strong>And what if you could do all of the above for free ?? (For now at least)&nbsp;</strong>
+    </blockquote>
+
+  <p>
+    Go ahead and join the beta program from&nbsp;<a href="https://intunepckgr.com/" target="_blank">https://intunepckgr.com/</a>
+  </p>
+
+  <p>
+    
+  </p>
+
+  <p>
+    Once joined visit your companies tab to add a new company :&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/IntunePckgrMyCompanies.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-2xl.png 1600w"  height="602" width="1381" alt="" />
+      
+    </figure>
+
+  <p>
+    Once added select it and click connect to Intune&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="237" width="482" alt="" />
+      
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="527" width="484" alt="" />
+      
+    </figure>
+
+  <p>
+    After following the prompts to sign in etc. you will be redirected back to your profile in Intunepckgr.&nbsp;
+  </p>
+
+  <p>
+    Go ahead and click on App Library&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="611" width="1384" alt="" />
+      
+    </figure>
+
+  <p>
+    Select your organization and click on Add App.&nbsp;
+  </p>
+
+  <p>
+    Here you are presented with a quite large list with popular windows apps ready to be deployed. When selecting an app your are presented with the option to auto-update the app . That means that whenever a new version of the app is launched the service deploys the new version to your Intune tenant and if you have assigned the app as required for one or more groups the app gets updated on the endpoint without end-user or admin interaction!&nbsp;
+  </p>
+
+  <p>
+    After you have selected the apps of your choice wait for the app to be deployed and then head back to intune to check and assign the apps.&nbsp;
+  </p>
+
+  <p>
+    Look at my apps inside Intune for example :
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-2xl.png 1600w"  height="836" width="1603" alt="" />
+      
+    </figure>
+
+  <p>
+    So I have in total 13 win32 apps ready to be deployed , or uninstalled with the command lines needed to work ready and tested. I also have the ability to auto-update the apps for my Intune Managed Endpoints whenever a new version of the app is available and the service deploys it . How much time did that take ? Almost as much as I needed to package , test, and deploy 1 of them ! About 20 minutes from account creation to deployment !&nbsp;
+  </p>
+
+  <p>
+    And if you ever have a problem , such as app not deploying to your tenant , or app deployed and assigned but not getting installed on your endpoints just talk to support through the online chat at&nbsp;<a href="https://intunepckgr.com/">https://intunepckgr.com/</a>&nbsp;. I am sure you will get a response within minutes with a solution to the problem . These guys are lightning fast!
+  </p>
+
+  <p>
+    This is really a game changer ! Kudos @intunepckgr and especially&nbsp;Dale Flanagan (linkedin :&nbsp;<a href="https://www.linkedin.com/in/daleflanagan/">https://www.linkedin.com/in/daleflanagan/</a>&nbsp;who is the man responsible behind the project!
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>How can I install Microsoft 365 Apps via Intune from local source.</title>
         <author>
