@@ -1,14 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2022-10-31T17:02:36+02:00</updated>
+    <updated>2023-03-08T15:06:26+02:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://drontoso.gr</id>
 
+    <entry>
+        <title>ADConnect Error - DeletingLicensedGroupNotAllowed </title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/"/>
+        <id>https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/</id>
+        <media:content url="https://drontoso.gr/media/posts/15/ADconError.png" medium="image" />
+            <category term="ADConnect"/>
+
+        <updated>2023-03-08T15:06:26+02:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/15/ADconError.png" alt="" />
+                    If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an error in ADConnect similar to the screenshot above .&nbsp; The error states : "DeletingLicensedGroupNotAllowed" The problem is that AD Connect does not specifically tell you&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://drontoso.gr/media/posts/15/ADconError.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect.png" height="517" width="1025" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-xs.png 300w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-sm.png 480w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-md.png 768w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-lg.png 1024w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-xl.png 1360w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-2xl.png 1600w">
+      <figcaption>DeletingLicensedGroupNotAllowed</figcaption>
+    </figure>
+
+  <p>
+    If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an <b>error</b> in <b>ADConnect </b>similar to the screenshot above .&nbsp;
+  </p>
+
+  <p>
+    The error states : "<b>DeletingLicensedGroupNotAllowed</b>"
+  </p>
+
+  <p>
+    The problem is that AD Connect does not specifically tell you which AD Group caused the problem. In most situations you realise you have an error in AD Connect a few hours or days later .&nbsp;
+  </p>
+
+  <p>
+    What if it was Azure Active Directory clean up day and you deleted 200 groups ? How can I find which group is causing the problem ?&nbsp;&nbsp;
+  </p>
+
+  <p>
+    
+  </p>
+
+  <p>
+    Navigate to <b>Azure Active Directory</b> - &gt; <b>Groups </b>and then <b>Audit Logs </b>.&nbsp;
+  </p>
+
+  <p>
+    Click add <b>filters </b>and add <b>Status</b> . Then choose <b>failure </b>for <b>status </b>. Obviously within the failures you will find the one you are looking for . To resolve the error <b>remove the license assignment from the group</b> so the group can be deleted.
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Automatically package and install Windows Apps to Intune Devices (without Microsoft Win32 Content Prep Tool) - intunepckgr.com</title>
         <author>
@@ -16,6 +76,7 @@
         </author>
         <link href="https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/"/>
         <id>https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/</id>
+        <media:content url="https://drontoso.gr/media/posts/14/IntunePCKGR.png" medium="image" />
             <category term="Microsoft Intune"/>
 
         <updated>2022-10-31T17:02:36+02:00</updated>
@@ -27,7 +88,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     What if I told you that there is a service which can package and install all popular Windows Apps as Win32 Apps to your Intune Devices with just a few clicks?
@@ -58,7 +119,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/14/IntunePckgrMyCompanies.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-2xl.png 1600w"  height="602" width="1381" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/IntunePckgrMyCompanies.png" height="602" width="1381" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/IntunePckgrMyCompanies-2xl.png 1600w">
       
     </figure>
 
@@ -67,12 +128,12 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="237" width="482" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard.png" height="237" width="482" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_00_52-Intune-Pckgr-_-Dashboard-2xl.png 1600w">
       
     </figure>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="527" width="484" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard.png" height="527" width="484" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-13_01_58-Intune-Pckgr-_-Dashboard-2xl.png 1600w">
       
     </figure>
 
@@ -85,7 +146,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-2xl.png 1600w"  height="611" width="1384" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard.png" height="611" width="1384" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_45_08-Intune-Pckgr-_-Dashboard-2xl.png 1600w">
       
     </figure>
 
@@ -106,7 +167,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-2xl.png 1600w"  height="836" width="1603" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/14/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn.png" height="836" width="1603" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xs.png 300w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-sm.png 480w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-md.png 768w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-lg.png 1024w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-xl.png 1360w ,https://drontoso.gr/media/posts/14/responsive/2022-10-31-16_50_42-2022-10-31-16_48_56-Windows-Microsoft-Endpoint-Manager-admin-center-Opera.pn-2xl.png 1600w">
       
     </figure>
 
@@ -131,6 +192,7 @@
         </author>
         <link href="https://drontoso.gr/how-can-i-install-microsoft-365-apps-via-intune-from-local-source/"/>
         <id>https://drontoso.gr/how-can-i-install-microsoft-365-apps-via-intune-from-local-source/</id>
+        <media:content url="https://drontoso.gr/media/posts/13/MicrosoftIntuneM365AppsLocalSource.png" medium="image" />
             <category term="Microsoft Intune"/>
             <category term="M365 Apps"/>
 
@@ -143,7 +205,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/13/MicrosoftIntuneM365AppsLocalSource.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/13/MicrosoftIntuneM365AppsLocalSource.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     Did you know you can initiate Microsoft 365 Apps via Intune when the source files are in your file server? Nor did I.&nbsp;
@@ -182,7 +244,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/13/IntuneOfficeInstallationViaLocalSource.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-2xl.png 1600w"  height="289" width="857" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/13/IntuneOfficeInstallationViaLocalSource.png" height="289" width="857" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/IntuneOfficeInstallationViaLocalSource-2xl.png 1600w">
       
     </figure>
 
@@ -215,7 +277,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/13/Microsoft365-Apps.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-2xl.png 1600w"  height="250" width="568" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/13/Microsoft365-Apps.png" height="250" width="568" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/Microsoft365-Apps-2xl.png 1600w">
       
     </figure>
 
@@ -224,7 +286,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/13/ConfigurationDesignerXML.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-2xl.png 1600w"  height="662" width="843" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/13/ConfigurationDesignerXML.png" height="662" width="843" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-xs.png 300w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-sm.png 480w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-md.png 768w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-lg.png 1024w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-xl.png 1360w ,https://drontoso.gr/media/posts/13/responsive/ConfigurationDesignerXML-2xl.png 1600w">
       
     </figure>
 
@@ -245,6 +307,7 @@
         </author>
         <link href="https://drontoso.gr/exchange-public-folders-migration-sourcesidevalidation-script-shows-orphanedmpf-folders/"/>
         <id>https://drontoso.gr/exchange-public-folders-migration-sourcesidevalidation-script-shows-orphanedmpf-folders/</id>
+        <media:content url="https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png" medium="image" />
             <category term="PublicFolders Migration"/>
             <category term="ExchangeOnline"/>
             <category term="Exchange On Premise"/>
@@ -258,14 +321,14 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     So you are trying to run SourceSideVaildation.ps1 script provided from <a href="https://techcommunity.microsoft.com/t5/exchange-team-blog/making-your-public-folder-migrations-faster-and-more-reliable/ba-p/917622" target="_blank">MS</a>&nbsp;and find out OrphanedMPF objects that the script indicates that need to be cleaned up . The output of the script shows something like this :&nbsp;
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/12/OrphanedMPFs.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-2xl.png 1600w"  height="36" width="744" alt="OrphanedMPFs" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/12/OrphanedMPFs.png" height="36" width="744" alt="OrphanedMPFs"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/OrphanedMPFs-2xl.png 1600w">
       
     </figure>
 
@@ -282,7 +345,7 @@
   </p>
 
     <figure class="post__image post__image--center">
-      <img loading="lazy" src="https://drontoso.gr/media/posts/12/PublicFoldersADSI.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-2xl.png 1600w"  height="448" width="1027" alt="" />
+      <img loading="lazy" src="https://drontoso.gr/media/posts/12/PublicFoldersADSI.png" height="448" width="1027" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xs.png 300w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-sm.png 480w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-md.png 768w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-lg.png 1024w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-xl.png 1360w ,https://drontoso.gr/media/posts/12/responsive/PublicFoldersADSI-2xl.png 1600w">
       
     </figure>
 
@@ -315,6 +378,7 @@
         </author>
         <link href="https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/"/>
         <id>https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/</id>
+        <media:content url="https://drontoso.gr/media/posts/11/mailboxquotas.png" medium="image" />
             <category term="PowerShellScripts"/>
             <category term="ExchangeOnline"/>
 
@@ -327,7 +391,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/11/mailboxquotas.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/11/mailboxquotas.png" class="type:primaryImage" alt="" /></p>
                 <p>If you need to change Office365 mailbox quotas the only way to do so is via Powershell. In addition there is not way to control quotas via groups for example or any policy to assign in order to assisgn for example X GBs quota to sales department . </p>
 <p>For that reason I created the Powershell script below . </p>
 <p>Feel free to change / share / comment .</p>
@@ -581,6 +645,7 @@
         </author>
         <link href="https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/"/>
         <id>https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/</id>
+        <media:content url="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" medium="image" />
             <category term="CodeTwoOffice365Migration"/>
 
         <updated>2022-07-21T12:28:48+03:00</updated>
@@ -592,16 +657,16 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" class="type:primaryImage" alt="" /></p>
                 <p>If you need to move CodeTwo Office 365 Migration tool to another computer but do not want to purge mailboxes which were already processed and start over (to avoid duplicates creation) you need to follow the workaround mentioned in the document below to migrate settings and cache objects of the software to the new computer: <a href="https://www.codetwo.com/userguide/exchange-rules-pro/reinstall-or-move.htm" target="_blank" rel="noopener noreferrer">CodeTwo Documentation</a></p>
 <p>What CodeTwo does not mention in the article is that you need to have Messaging Api And Collaboration Data Objects 1.2.1 installed on the computer in case you are trying to migrate from Exchange 2003 or 2007. </p>
 <p>If you already have office installed on your computer you need to remove it first before installing CodeTwo as per the guide's instructions. If you don't <strong>like I did </strong>Messaging Api won't be installed automatically and you won't be able to start the jobs or reconfigure the source server connection. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/MessagingAndCollaborationAPI-6.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-2xl.png 1600w"  alt="MessagingAndCollaborationApi" width="1007" height="640"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/MessagingAndCollaborationAPI-6.png" alt="MessagingAndCollaborationApi" width="1007" height="640" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-2xl.png 1600w"></figure>
 <p>You can always remove and reinstall after removing Office from the "host" computer but you can also navigate to Add/Remove Programs and repair the installation of CodeTwo . If you do so a message will popup which indicates that Messaging Api And Collaboration Data Objects 1.2.1 is not installed on the computer and ask if you want the software to be installed. If you do so source server connection will be established .</p>
 <p>When you try to restart your jobs you will get another error indicating that a certificate with a particular thumbprint is missing from the computer so the jobs will fail to start. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/CodeTwoMissingCertError.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-2xl.png 1600w"  alt="CodeTwoMissingCertError" width="385" height="168"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/CodeTwoMissingCertError.png" alt="CodeTwoMissingCertError" width="385" height="168" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-2xl.png 1600w"></figure>
 <p>You can then export the required certificate and import it to your "host" computer under User/Personal store. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/ExportCodeTwoCertFromSourceServer.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"  alt="ExportCodeTwoCertFromSourceServer" width="1034" height="622"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/ExportCodeTwoCertFromSourceServer.png" alt="ExportCodeTwoCertFromSourceServer" width="1034" height="622" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"></figure>
 <p>After that all migrations will start like you were in your old machine and mail duplicates won't exist. No need to purge your mailboxes either this way. </p>
             ]]>
         </content>
@@ -613,6 +678,7 @@
         </author>
         <link href="https://drontoso.gr/email-messages-sent-through-outlook-have-a-padlock-icon-next-to-the-message-but-message-was-not-sent-encrypted/"/>
         <id>https://drontoso.gr/email-messages-sent-through-outlook-have-a-padlock-icon-next-to-the-message-but-message-was-not-sent-encrypted/</id>
+        <media:content url="https://drontoso.gr/media/posts/9/outlook-padlock-res.png" medium="image" />
             <category term="Outlook"/>
 
         <updated>2022-07-21T12:31:12+03:00</updated>
@@ -624,13 +690,13 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/9/outlook-padlock-res.png" alt="" />
+                    <p><img src="https://drontoso.gr/media/posts/9/outlook-padlock-res.png" class="type:primaryImage" alt="" /></p>
                 <p>Sometimes you choose to send a message through outlook with a digital signature but without enryption. </p>
 <p>If you check your sent messages there is a padlock icon next to each message but you've sent the message without encryption : </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/outlook-padlock.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-2xl.png 1600w"  alt="outlook-padlock" width="1033" height="455"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/outlook-padlock.png" alt="outlook-padlock" width="1033" height="455" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/outlook-padlock-2xl.png 1600w"></figure>
 <p> </p>
 <p>This is happening because the following option is not checked : </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/smime-check.png" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/smime-check-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/smime-check-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/smime-check-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/smime-check-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/smime-check-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/smime-check-2xl.png 1600w"  alt="TrustCenterSettings" width="823" height="669"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/9/smime-check.png" alt="TrustCenterSettings" width="823" height="669" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/9/responsive/smime-check-xs.png 300w ,https://drontoso.gr/media/posts/9/responsive/smime-check-sm.png 480w ,https://drontoso.gr/media/posts/9/responsive/smime-check-md.png 768w ,https://drontoso.gr/media/posts/9/responsive/smime-check-lg.png 1024w ,https://drontoso.gr/media/posts/9/responsive/smime-check-xl.png 1360w ,https://drontoso.gr/media/posts/9/responsive/smime-check-2xl.png 1600w"></figure>
 <p>To resolve the issue navigate to : </p>
 <p>Outlook</p>
 <p>File - Options - Trust center - Trust Center Settings - Email Security and activate </p>
@@ -645,6 +711,7 @@
         </author>
         <link href="https://drontoso.gr/exchange-server-databases-dissappeared/"/>
         <id>https://drontoso.gr/exchange-server-databases-dissappeared/</id>
+        <media:content url="https://drontoso.gr/media/posts/6/microsoft-exchange-logo_resized.png" medium="image" />
             <category term="Exchange On Premise"/>
 
         <updated>2022-07-21T12:31:23+03:00</updated>
@@ -656,16 +723,16 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://drontoso.gr/media/posts/6/microsoft-exchange-logo_resized.png" alt="Exchange" />
+                    <p><img src="https://drontoso.gr/media/posts/6/microsoft-exchange-logo_resized.png" class="type:primaryImage" alt="Exchange" /></p>
                 <p>After logging in to exchange on premise (ECP) you might see the picture below when navigating to Servers - &gt; Databases</p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/exc.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/exc-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/exc-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/exc-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/exc-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/exc-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/exc-2xl.jpg 1600w"  alt="" width="881" height="483"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/exc.jpg" alt="" width="881" height="483" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/exc-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/exc-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/exc-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/exc-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/exc-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/exc-2xl.jpg 1600w"></figure>
 <p>In addition if you check through Exchange management shell you might get the error below or similar like we did : </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/excdb-2.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/excdb-2-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-2xl.jpg 1600w"  alt="" width="950" height="161"></figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/excdb-2.jpg" alt="" width="950" height="161" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/excdb-2-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/excdb-2-2xl.jpg 1600w"></figure>
 <p>So it seems there is an old reference to a database which has been deleted in our case . But why should this interfere with the rest of our Databases?</p>
 <p>We deleted the reference to the old database - Make sure it is an old reference which is no longer needed before deletion - by navigating to ADSI Edit : </p>
 <p>On a Domain Controller, Open ADSIEdit.msc and Connect to ‘Configuration’.</p>
 <p>Navigate to Configuration &gt; Services &gt; Microsoft Exchange &gt; {Organisation name} &gt; Administrative Groups &gt; {Administrative-Group-Name} &gt; Databases  &gt;Delete the old database reference . </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/excADSI.jpg" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/excADSI-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/excADSI-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/excADSI-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/excADSI-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/excADSI-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/excADSI-2xl.jpg 1600w"  alt="" width="665" height="327"> </figure>
+<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/excADSI.jpg" alt="" width="665" height="327" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/excADSI-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/excADSI-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/excADSI-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/excADSI-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/excADSI-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/excADSI-2xl.jpg 1600w"> </figure>
 <p>After 5 minutes logout and relogin to ECP and check again . Your databases should be visible now :D . </p>
             ]]>
         </content>
