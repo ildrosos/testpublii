@@ -6,9 +6,9 @@
 </url>
 <url>
 <loc>https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/</loc>
-<lastmod>2023-03-27T15:47:32+03:00</lastmod>
+<lastmod>2023-05-05T12:51:07+03:00</lastmod>
 <image:image>
-<image:loc>https://drontoso.gr/media\posts\15/ADconError.png</image:loc>
+<image:loc>https://drontoso.gr/media\posts\15/DeletingLicensedGroupNotAllowedADConnect-2.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>
@@ -69,6 +69,14 @@
 <lastmod>2022-10-31T12:51:10+02:00</lastmod>
 <image:image>
 <image:loc>https://drontoso.gr/media\posts\13/MicrosoftIntuneM365AppsLocalSource.png</image:loc>
+<image:title><![CDATA[]]></image:title>
+</image:image>
+</url>
+<url>
+<loc>https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/</loc>
+<lastmod>2023-05-05T12:51:12+03:00</lastmod>
+<image:image>
+<image:loc>https://drontoso.gr/media\posts\17/HCW-CertNotFound-3.png</image:loc>
 <image:title><![CDATA[]]></image:title>
 </image:image>
 </url>

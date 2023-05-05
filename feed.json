@@ -11,12 +11,31 @@
     },
     "items": [
         {
+            "id": "https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/",
+            "url": "https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/",
+            "title": "Hybrid Configuration wizard - No Valid Certificates Found",
+            "summary": "Recently I had a case where a customer wanted to add a second exchange server in HCW to host receive and send connectors for redundancy .&nbsp; The problem was that the server was in a different site and child domain than the \"primary\" exchange server&hellip;",
+            "content_html": "\n  <p>\n    Recently I had a case where a customer wanted to add a second exchange server in HCW to host receive and send connectors for redundancy .&nbsp;\n  </p>\n\n  <p>\n    The problem was that the server was in a different site and child domain than the \"primary\" exchange server which was already part of HCW.&nbsp;\n  </p>\n\n  <p>\n    As shown in the screenshot after selecting which servers you need to host Receive/Send connectors you need to select the Transport Certificate which will be used when connecting to Office 365.&nbsp;\n  </p>\n\n  <p>\n    At this point I had the error : No valid certificates found for our 1st exchange server .&nbsp;\n  </p>\n\n  <p>\n    After checking the server I identified that this was not true . The server had a valid cert and of course if you tried to run HCW from that server the error was gone.&nbsp;\n  </p>\n\n  <p>\n    So what is the problem in this case ? The problem is that HCW is trying to query the server with the hostname as shown in the screenshot not the FQDN . But as mentioned the HCW was run in a different domain than the domain that the server in question was installed to . That said the hostname was not resolved to a real IP address .\n  </p>\n\n  <p>\n    So to overcome the problem you need to either&nbsp; :&nbsp;\n  </p>\n\n  <p>\n    Add a record to your local DNS server with the server name and the server IP or&nbsp;\n  </p>\n\n  <p>\n    Add a hostfile&nbsp; to your exchange server which will point to the real IP of the server we are looking for like this :&nbsp;\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/17/ostfile.png\" height=\"305\" width=\"513\" alt=\"hostfile\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/17/responsive/ostfile-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/ostfile-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/ostfile-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/ostfile-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/ostfile-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/ostfile-2xl.png 1600w\">\n      \n    </figure>\n\n  <p>\n    After that if you did not close the HCW you will see this instead of the initial error :&nbsp;\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/17/HCW-WAITING.png\" height=\"590\" width=\"608\" alt=\"HCW - waiting\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-2xl.png 1600w\">\n      \n    </figure>\n\n  <p>\n    I gave it about 30 mins with no result so I decided to make a coffee , and close and reopen HCW wizard after about 30 mins or so . This was the result :&nbsp;\n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/17/HCW-BOOOOM.png\" height=\"508\" width=\"566\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-2xl.png 1600w\">\n      \n    </figure>\n\n  <p>\n    Boom , case closed. Cheers!\n  </p>",
+            "image": "https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png",
+            "author": {
+                "name": "Ilias Drosos"
+            },
+            "tags": [
+                   "Hybrid Configuration Wizard",
+                   "HCW",
+                   "ExchangeOnline",
+                   "Exchange On Premise"
+            ],
+            "date_published": "2023-05-05T12:31:54+03:00",
+            "date_modified": "2023-05-05T12:51:12+03:00"
+        },
+        {
             "id": "https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/",
             "url": "https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/",
-            "title": "ADConnect Error - DeletingLicensedGroupNotAllowed ",
+            "title": "ADConnect Error - DeletingLicensedGroupNotAllowed",
             "summary": "If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an error in ADConnect similar to the screenshot above .&nbsp; The error states : \"DeletingLicensedGroupNotAllowed\" The problem is that AD Connect does not specifically tell you&hellip;",
             "content_html": "\n  <p>\n    \n  </p>\n\n    <figure class=\"post__image post__image--center\">\n      <img loading=\"lazy\" src=\"https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect.png\" height=\"517\" width=\"1025\" alt=\"\"  sizes=\"(max-width: 48em) 100vw, 768px\" srcset=\"https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-xs.png 300w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-sm.png 480w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-md.png 768w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-lg.png 1024w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-xl.png 1360w ,https://drontoso.gr/media/posts/15/responsive/DeletingLicensedGroupNotAllowedADConnect-2xl.png 1600w\">\n      <figcaption>DeletingLicensedGroupNotAllowed</figcaption>\n    </figure>\n\n  <p>\n    If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an <b>error</b> in <b>ADConnect </b>similar to the screenshot above .&nbsp;\n  </p>\n\n  <p>\n    The error states : \"<b>DeletingLicensedGroupNotAllowed</b>\"\n  </p>\n\n  <p>\n    The problem is that AD Connect does not specifically tell you which AD Group caused the problem. In most situations you realise you have an error in AD Connect a few hours or days later .&nbsp;\n  </p>\n\n  <p>\n    What if it was Azure Active Directory clean up day and you deleted 200 groups ? How can I find which group is causing the problem ?&nbsp;&nbsp;\n  </p>\n\n  <p>\n    \n  </p>\n\n  <p>\n    Navigate to <b>Azure Active Directory</b> - &gt; <b>Groups </b>and then <b>Audit Logs </b>.&nbsp;\n  </p>\n\n  <p>\n    Click add <b>filters </b>and add <b>Status</b> . Then choose <b>failure </b>for <b>status </b>. Obviously within the failures you will find the one you are looking for . To resolve the error <b>remove the license assignment from the group</b> so the group can be deleted.\n  </p>",
-            "image": "https://drontoso.gr/media/posts/15/ADconError.png",
+            "image": "https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png",
             "author": {
                 "name": "Ilias Drosos"
             },
@@ -24,7 +43,7 @@
                    "ADConnect"
             ],
             "date_published": "2023-01-13T09:38:06+02:00",
-            "date_modified": "2023-03-27T15:47:32+03:00"
+            "date_modified": "2023-05-05T12:51:07+03:00"
         },
         {
             "id": "https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/",

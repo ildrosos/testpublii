@@ -3,32 +3,121 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2023-03-27T15:47:32+03:00</updated>
+    <updated>2023-05-05T12:51:12+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://drontoso.gr</id>
 
     <entry>
-        <title>ADConnect Error - DeletingLicensedGroupNotAllowed </title>
+        <title>Hybrid Configuration wizard - No Valid Certificates Found</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/"/>
+        <id>https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/</id>
+        <media:content url="https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png" medium="image" />
+            <category term="Hybrid Configuration Wizard"/>
+            <category term="HCW"/>
+            <category term="ExchangeOnline"/>
+            <category term="Exchange On Premise"/>
+
+        <updated>2023-05-05T12:51:12+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png" alt="" />
+                    Recently I had a case where a customer wanted to add a second exchange server in HCW to host receive and send connectors for redundancy .&nbsp; The problem was that the server was in a different site and child domain than the "primary" exchange server&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Recently I had a case where a customer wanted to add a second exchange server in HCW to host receive and send connectors for redundancy .&nbsp;
+  </p>
+
+  <p>
+    The problem was that the server was in a different site and child domain than the "primary" exchange server which was already part of HCW.&nbsp;
+  </p>
+
+  <p>
+    As shown in the screenshot after selecting which servers you need to host Receive/Send connectors you need to select the Transport Certificate which will be used when connecting to Office 365.&nbsp;
+  </p>
+
+  <p>
+    At this point I had the error : No valid certificates found for our 1st exchange server .&nbsp;
+  </p>
+
+  <p>
+    After checking the server I identified that this was not true . The server had a valid cert and of course if you tried to run HCW from that server the error was gone.&nbsp;
+  </p>
+
+  <p>
+    So what is the problem in this case ? The problem is that HCW is trying to query the server with the hostname as shown in the screenshot not the FQDN . But as mentioned the HCW was run in a different domain than the domain that the server in question was installed to . That said the hostname was not resolved to a real IP address .
+  </p>
+
+  <p>
+    So to overcome the problem you need to either&nbsp; :&nbsp;
+  </p>
+
+  <p>
+    Add a record to your local DNS server with the server name and the server IP or&nbsp;
+  </p>
+
+  <p>
+    Add a hostfile&nbsp; to your exchange server which will point to the real IP of the server we are looking for like this :&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/17/ostfile.png" height="305" width="513" alt="hostfile"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/17/responsive/ostfile-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/ostfile-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/ostfile-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/ostfile-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/ostfile-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/ostfile-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    After that if you did not close the HCW you will see this instead of the initial error :&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/17/HCW-WAITING.png" height="590" width="608" alt="HCW - waiting"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/HCW-WAITING-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    I gave it about 30 mins with no result so I decided to make a coffee , and close and reopen HCW wizard after about 30 mins or so . This was the result :&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/17/HCW-BOOOOM.png" height="508" width="566" alt=""  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-xs.png 300w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-sm.png 480w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-md.png 768w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-lg.png 1024w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-xl.png 1360w ,https://drontoso.gr/media/posts/17/responsive/HCW-BOOOOM-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    Boom , case closed. Cheers!
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ADConnect Error - DeletingLicensedGroupNotAllowed</title>
         <author>
             <name>Ilias Drosos</name>
         </author>
         <link href="https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/"/>
         <id>https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/</id>
-        <media:content url="https://drontoso.gr/media/posts/15/ADconError.png" medium="image" />
+        <media:content url="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" medium="image" />
             <category term="ADConnect"/>
 
-        <updated>2023-03-27T15:47:32+03:00</updated>
+        <updated>2023-05-05T12:51:07+03:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://drontoso.gr/media/posts/15/ADconError.png" alt="" />
+                        <img src="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" alt="" />
                     If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an error in ADConnect similar to the screenshot above .&nbsp; The error states : "DeletingLicensedGroupNotAllowed" The problem is that AD Connect does not specifically tell you&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://drontoso.gr/media/posts/15/ADconError.png" class="type:primaryImage" alt="" /></p>
+                    <p><img src="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" class="type:primaryImage" alt="" /></p>
                 
   <p>
     
