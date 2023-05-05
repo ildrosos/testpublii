@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2023-05-05T13:16:56+03:00</updated>
+    <updated>2023-05-05T13:25:01+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -820,6 +820,51 @@
 <p>Navigate to Configuration &gt; Services &gt; Microsoft Exchange &gt; {Organisation name} &gt; Administrative Groups &gt; {Administrative-Group-Name} &gt; Databases  &gt;Delete the old database reference . </p>
 <figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/6/excADSI.jpg" alt="" width="665" height="327" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/6/responsive/excADSI-xs.jpg 300w ,https://drontoso.gr/media/posts/6/responsive/excADSI-sm.jpg 480w ,https://drontoso.gr/media/posts/6/responsive/excADSI-md.jpg 768w ,https://drontoso.gr/media/posts/6/responsive/excADSI-lg.jpg 1024w ,https://drontoso.gr/media/posts/6/responsive/excADSI-xl.jpg 1360w ,https://drontoso.gr/media/posts/6/responsive/excADSI-2xl.jpg 1600w"> </figure>
 <p>After 5 minutes logout and relogin to ECP and check again . Your databases should be visible now :D . </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>ContactUs</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/contactus/"/>
+        <id>https://drontoso.gr/contactus/</id>
+        <media:content url="https://drontoso.gr/media/posts/4/paizopoli-cake.jpg" medium="image" />
+
+        <updated>2023-05-05T13:25:01+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/4/paizopoli-cake.jpg" alt="" />
+                    First Name Last Name Country Australia Canada USA Subject
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://drontoso.gr/media/posts/4/paizopoli-cake.jpg" class="type:primaryImage" alt="" /></p>
+                <div><div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div></div>
             ]]>
         </content>
     </entry>

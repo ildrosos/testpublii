@@ -157,6 +157,21 @@
             ],
             "date_published": "2022-07-04T11:12:04+03:00",
             "date_modified": "2023-05-05T13:16:56+03:00"
+        },
+        {
+            "id": "https://drontoso.gr/contactus/",
+            "url": "https://drontoso.gr/contactus/",
+            "title": "ContactUs",
+            "summary": "First Name Last Name Country Australia Canada USA Subject",
+            "content_html": "<div><div class=\"container\">\n  <form action=\"action_page.php\">\n\n    <label for=\"fname\">First Name</label>\n    <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\">\n\n    <label for=\"lname\">Last Name</label>\n    <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\">\n\n    <label for=\"country\">Country</label>\n    <select id=\"country\" name=\"country\">\n      <option value=\"australia\">Australia</option>\n      <option value=\"canada\">Canada</option>\n      <option value=\"usa\">USA</option>\n    </select>\n\n    <label for=\"subject\">Subject</label>\n    <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea>\n\n    <input type=\"submit\" value=\"Submit\">\n\n  </form>\n</div></div>",
+            "image": "https://drontoso.gr/media/posts/4/paizopoli-cake.jpg",
+            "author": {
+                "name": "Ilias Drosos"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-07T15:43:22+03:00",
+            "date_modified": "2023-05-05T13:25:01+03:00"
         }
     ]
 }
