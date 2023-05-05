@@ -22,12 +22,10 @@
             },
             "tags": [
                    "Hybrid Configuration Wizard",
-                   "HCW",
-                   "ExchangeOnline",
-                   "Exchange On Premise"
+                   "Exchange"
             ],
             "date_published": "2023-05-05T12:31:54+03:00",
-            "date_modified": "2023-05-05T12:51:12+03:00"
+            "date_modified": "2023-05-05T13:15:48+03:00"
         },
         {
             "id": "https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/",
@@ -43,7 +41,7 @@
                    "ADConnect"
             ],
             "date_published": "2023-01-13T09:38:06+02:00",
-            "date_modified": "2023-05-05T12:51:07+03:00"
+            "date_modified": "2023-05-05T13:15:54+03:00"
         },
         {
             "id": "https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/",
@@ -59,7 +57,7 @@
                    "Microsoft Intune"
             ],
             "date_published": "2022-10-31T13:05:40+02:00",
-            "date_modified": "2022-10-31T17:02:36+02:00"
+            "date_modified": "2023-05-05T13:14:25+03:00"
         },
         {
             "id": "https://drontoso.gr/how-can-i-install-microsoft-365-apps-via-intune-from-local-source/",
@@ -76,7 +74,7 @@
                    "M365 Apps"
             ],
             "date_published": "2022-10-25T15:10:56+03:00",
-            "date_modified": "2022-10-31T12:51:10+02:00"
+            "date_modified": "2023-05-05T13:15:35+03:00"
         },
         {
             "id": "https://drontoso.gr/exchange-public-folders-migration-sourcesidevalidation-script-shows-orphanedmpf-folders/",
@@ -90,11 +88,10 @@
             },
             "tags": [
                    "PublicFolders Migration",
-                   "ExchangeOnline",
-                   "Exchange On Premise"
+                   "Exchange"
             ],
             "date_published": "2022-10-25T11:38:45+03:00",
-            "date_modified": "2022-10-25T13:31:57+03:00"
+            "date_modified": "2023-05-05T13:16:11+03:00"
         },
         {
             "id": "https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/",
@@ -108,10 +105,10 @@
             },
             "tags": [
                    "PowerShellScripts",
-                   "ExchangeOnline"
+                   "Exchange"
             ],
             "date_published": "2022-07-13T16:35:12+03:00",
-            "date_modified": "2022-07-13T16:38:46+03:00"
+            "date_modified": "2023-05-05T13:16:29+03:00"
         },
         {
             "id": "https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/",
@@ -127,7 +124,7 @@
                    "CodeTwoOffice365Migration"
             ],
             "date_published": "2022-07-12T16:39:57+03:00",
-            "date_modified": "2022-07-21T12:28:48+03:00"
+            "date_modified": "2023-05-05T13:16:39+03:00"
         },
         {
             "id": "https://drontoso.gr/email-messages-sent-through-outlook-have-a-padlock-icon-next-to-the-message-but-message-was-not-sent-encrypted/",
@@ -140,10 +137,10 @@
                 "name": "Ilias Drosos"
             },
             "tags": [
-                   "Outlook"
+                   "M365 Apps"
             ],
             "date_published": "2022-07-12T16:38:32+03:00",
-            "date_modified": "2022-07-21T12:31:12+03:00"
+            "date_modified": "2023-05-05T13:16:48+03:00"
         },
         {
             "id": "https://drontoso.gr/exchange-server-databases-dissappeared/",
@@ -156,10 +153,10 @@
                 "name": "Ilias Drosos"
             },
             "tags": [
-                   "Exchange On Premise"
+                   "Exchange"
             ],
             "date_published": "2022-07-04T11:12:04+03:00",
-            "date_modified": "2022-07-21T12:31:23+03:00"
+            "date_modified": "2023-05-05T13:16:56+03:00"
         }
     ]
 }
