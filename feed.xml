@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2023-12-05T16:36:14+02:00</updated>
+    <updated>2023-12-05T16:37:45+02:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -17,8 +17,9 @@
         <link href="https://drontoso.gr/system-center-operations-manager-2016-to-2019-upgrade-error-scom-2019/"/>
         <id>https://drontoso.gr/system-center-operations-manager-2016-to-2019-upgrade-error-scom-2019/</id>
         <media:content url="https://drontoso.gr/media/posts/20/20162019featured-3.png" medium="image" />
+            <category term="SCOM"/>
 
-        <updated>2023-12-05T16:36:14+02:00</updated>
+        <updated>2023-12-05T16:37:45+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/20/20162019featured-3.png" alt="" />
