@@ -11,6 +11,21 @@
     },
     "items": [
         {
+            "id": "https://drontoso.gr/system-center-operations-manager-2016-to-2019-upgrade-error-scom-2019/",
+            "url": "https://drontoso.gr/system-center-operations-manager-2016-to-2019-upgrade-error-scom-2019/",
+            "title": "System Center Operations Manager 2016 to 2019 in-place Upgrade Error (SCOM 2019) ",
+            "summary": "While upgrading a SCOM 2016 instance to 2019 I came up to a strange error . While checking the prerequisites I verified that my 2016 SQL SP3 server was enough to proceed with the the installation . But while starting the installation I got an&hellip;",
+            "content_html": "<p> </p>\n<p>While upgrading a SCOM 2016 instance to 2019 I came up to a strange error . While checking the prerequisites I verified that my 2016 SQL SP3 server was enough to proceed with the the installation . </p>\n<p>But while starting the installation I got an error in prerequisites check which stated that SQL version was not compatible with the current version I was trying to install . </p>\n<p>After finding the log folder of the installation I was running (C:\\Users\\userusedduringinstallation\\AppData\\Local\\SCOM\\LOGS) I opened SCOMPrereqCheck to check for more details . </p>\n<p>Unfortunately this log file has an XML like structure which does not provide more details to identify the root cause of this error . The only thing I found was a line stating OMDBSqlVersionCheckTitle with a Fail word in the end . </p>\n<p>Then I decided to check what was happening during the prerequisites check in my SQL server . So I fired Up SQL Management Studio logged in  and opened Management -&gt; SQL Server Logs -&gt; and opened the current logs file . </p>\n<p>There I saw a line saying : </p>\n<p>Starting up database 'SCOMINSTALLTESTDB_638356414323093873'.</p>\n<p>Each time I fired up the prerequisites check again on my SCOM server another database log was recorded . So to check if the server version is correct SCOM installer creates a test database with a random number in the end. I also checked that the account used during installation had the required permissions on the SQL server so that was not the issue. </p>\n<p>Then I decided to dig more . So I opened another log file through SQL Log viewer console which is called Windows NT . </p>\n<p>There I saw an error saying : </p>\n<p>The server-side authentication level policy does not allow the user DOMAIN\\USER SID (S-1-X-XX-XXXXXXXXXX-XXXXXXXXX-XXXXXXXXX-XXXXX) from address XX.XX.XX.XX to activate DCOM server. Please raise the activation authentication level at least to RPC_C_AUTHN_LEVEL_PKT_INTEGRITY in client application.</p>\n<p>I verified the IP listed here was the IP of my SCOM server . </p>\n<p>After googling the error I came up to this result : </p>\n<p><a href=\"https://support.microsoft.com/en-us/topic/kb5004442-manage-changes-for-windows-dcom-server-security-feature-bypass-cve-2021-26414-f1400b52-c141-43d2-941e-37ed901c769c\">https://support.microsoft.com/en-us/topic/kb5004442-manage-changes-for-windows-dcom-server-security-feature-bypass-cve-2021-26414-f1400b52-c141-43d2-941e-37ed901c769c</a></p>\n<p>If you read the article you will end up installing the KB on your SQL server or adding the registry key specified with a value of 0 to bypass the error . I did the latter and restarted the SQL server since it is required for the reg change to work . </p>\n<p>Fired up prerequisites check again and the error was gone! Voila! </p>\n<p>P.S. That registry key imposes your server and infrastructure in a security risk . Please keep in mind to remove the registry key or find a workaround after installing your SCOM instance. </p>",
+            "image": "https://drontoso.gr/media/posts/20/20162019featured-3.png",
+            "author": {
+                "name": "Ilias Drosos"
+            },
+            "tags": [
+            ],
+            "date_published": "2023-11-15T12:58:39+02:00",
+            "date_modified": "2023-12-05T16:36:14+02:00"
+        },
+        {
             "id": "https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/",
             "url": "https://drontoso.gr/hybrid-configuration-wizard-no-valid-certificates-found/",
             "title": "Hybrid Configuration wizard - No Valid Certificates Found",
@@ -157,21 +172,6 @@
             ],
             "date_published": "2022-07-04T11:12:04+03:00",
             "date_modified": "2023-05-05T13:16:56+03:00"
-        },
-        {
-            "id": "https://drontoso.gr/contactus/",
-            "url": "https://drontoso.gr/contactus/",
-            "title": "ContactUs",
-            "summary": "First Name Last Name Country Australia Canada USA Subject",
-            "content_html": "<div><div class=\"container\">\n  <form action=\"action_page.php\">\n\n    <label for=\"fname\">First Name</label>\n    <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\">\n\n    <label for=\"lname\">Last Name</label>\n    <input type=\"text\" id=\"lname\" name=\"lastname\" placeholder=\"Your last name..\">\n\n    <label for=\"country\">Country</label>\n    <select id=\"country\" name=\"country\">\n      <option value=\"australia\">Australia</option>\n      <option value=\"canada\">Canada</option>\n      <option value=\"usa\">USA</option>\n    </select>\n\n    <label for=\"subject\">Subject</label>\n    <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea>\n\n    <input type=\"submit\" value=\"Submit\">\n\n  </form>\n</div></div>",
-            "image": "https://drontoso.gr/media/posts/4/paizopoli-cake.jpg",
-            "author": {
-                "name": "Ilias Drosos"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-06-07T15:43:22+03:00",
-            "date_modified": "2023-05-05T13:25:01+03:00"
         }
     ]
 }
