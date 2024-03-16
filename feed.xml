@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2024-03-16T01:54:08+02:00</updated>
+    <updated>2024-03-16T12:45:28+02:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -19,17 +19,17 @@
         <media:content url="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" medium="image" />
             <category term="Microsoft Baselines"/>
 
-        <updated>2024-03-16T01:54:08+02:00</updated>
+        <updated>2024-03-16T12:45:28+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" alt="connect-wireless-display" />
-                    Recently I run into a problem with one of my customers . After deploying the latest MIcrosoft Windows Baselines users were not able to use Cast or Connect to wireless diplay. I suspected that something in the baselines broke this functionality so I started searching&hellip;
+                    Recently I run into a problem with one of my customers . After deploying the latest MIcrosoft Windows Baselines users were not able to use Connect to wireless diplay. I suspected that something in the baselines broke this functionality so I started searching within the&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
                     <p><img src="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" class="type:primaryImage" alt="connect-wireless-display" /></p>
-                <p>Recently I run into a problem with one of my customers . After deploying the latest MIcrosoft Windows Baselines users were not able to use Cast or Connect to wireless diplay.</p>
+                <p>Recently I run into a problem with one of my customers . After deploying the latest MIcrosoft Windows Baselines users were not able to use Connect to wireless diplay.</p>
 <p>I suspected that something in the baselines broke this functionality so I started searching within the settings.</p>
 <p>The documentation provided did not mention miracast or cast at all so I decided to disable the settings , first the ones I thought that could lead to such a problem and later the others . </p>
 <p>Well if you are in the same situation search no more . </p>
