@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2024-03-16T12:45:28+02:00</updated>
+    <updated>2024-03-16T12:47:00+02:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" medium="image" />
             <category term="Microsoft Baselines"/>
 
-        <updated>2024-03-16T12:45:28+02:00</updated>
+        <updated>2024-03-16T12:47:00+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" alt="connect-wireless-display" />
@@ -33,9 +33,9 @@
 <p>I suspected that something in the baselines broke this functionality so I started searching within the settings.</p>
 <p>The documentation provided did not mention miracast or cast at all so I decided to disable the settings , first the ones I thought that could lead to such a problem and later the others . </p>
 <p>Well if you are in the same situation search no more . </p>
-<p>After 2 hours of searching I found out that none of the settings I thought broke the functionality . The problem was Windows firewall. If you haven't enabled Window firewall on your clients and apply the policies then windows firewall will be turned on .</p>
+<p>After 2 hours of searching I found out that none of the settings I thought broke the functionality . The problem was Windows firewall. If you haven't enabled Windows firewall on your clients and apply the policies then windows firewall will be turned on .</p>
 <p>But to find the exact process to exclude you need to know which that is and which firewall profile it is using . </p>
-<p>After all when you click on connect to a wireless display it turns out your computer is using wi-fi adapter to connect to a hotspot your television is broadcasting. That said the profile to change is the firewall Public profile since this is network is recognized as a public connection when your computer makes a direct connection with the TV/Screen to cast. </p>
+<p>After all when you click on connect to a wireless display it turns out your computer is using wi-fi adapter to connect to a hotspot your television is broadcasting. That said the profile to change is the firewall Public profile since this is the network that is recognized as a public connection when your computer makes a direct connection with the TV/Screen to cast. </p>
 <p>So go and make an inbound exception on your firewall profile either from GPO/Intune/Manually for the app : </p>
 <ul>
 <li>Program %systemroot%/system32/WUDFHost.exe</li>
