@@ -3,7 +3,7 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2024-07-02T15:39:40+03:00</updated>
+    <updated>2024-07-03T10:51:59+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
@@ -19,7 +19,7 @@
         <media:content url="https://drontoso.gr/media/posts/22/Win11LockScreenPINReset1.jpeg" medium="image" />
             <category term="Microsoft Intune"/>
 
-        <updated>2024-07-02T15:39:40+03:00</updated>
+        <updated>2024-07-02T15:30:40+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/22/Win11LockScreenPINReset1.jpeg" alt="Windows11 - I Forgot My PIn image" />
@@ -38,8 +38,8 @@
 <p>After logging in you see the prompts published in the article but at the next step you get an error about the Reply URL for the Service Production Website and a "white" screen for the Client Production website . </p>
 <p>That doesn't mean the apps are not deployed but they are not deployed as they should .</p>
 <p>Some information and permissions are missing . </p>
-<p>So instead of that go to portal.azure.com and search for enterprise applications .</p>
-<p>While in the enterprise applications , click on New Application and search for Microsoft Pin Reset Client Production application , the correct one has an ID of : </p>
+<p><strong>So next step will be to go the apps and Grant admin permissions . Even you don't see any permissions underneath Grant admin consent and wait 2-5 minutes . After 5 minutes approximately permissions will appear and the apps will be ready to be used.</strong></p>
+<p>For reference here are the IDs of the correct apps :  Microsoft Pin Reset Client Production application </p>
 <table class="azc-grid-full" style="width: 100%; height: 50.3594px;" role="presentation" data-bind="style: { width: $ctl.tableWidth }">
 <tbody class="azc-grid-groupdata" role="rowgroup">
 <tr class="fxs-portal-hover fxs-portal-focus azc-grid-row" style="height: 50.3594px;" tabindex="0" role="row" data-bind="'keyedCss':{ grid1BodyRowsCore:&quot;azc-grid-row &quot;+ cssClass()},'attr':{'aria-label':$ctl._getRowAriaLabel($data) &amp;&amp; ariaLabel(),'aria-rowindex':$ctl.getRowIndex($index()),'aria-disabled':$disabled,'data-grid-focusable':true,'tabindex':focused() ? $ctl.$tabIndex():'-1'},'css':{&quot;azc-row-disabled&quot;:$disabled}" aria-rowindex="1" data-grid-focusable="true">
@@ -49,7 +49,7 @@
 </tr>
 </tbody>
 </table>
-<p>Register it and create a new one by searching for: Microsoft Pin Reset Service  Production Application, the correct one has an ID of : </p>
+<p>Microsoft Pin Reset Service  Production Application</p>
 <table class="azc-grid-full" style="width: 100%; height: 50.3594px;" role="presentation" data-bind="style: { width: $ctl.tableWidth }">
 <tbody class="azc-grid-groupdata" role="rowgroup">
 <tr class="fxs-portal-hover fxs-portal-focus azc-grid-row" style="height: 50.3594px;" tabindex="0" role="row" data-bind="'keyedCss':{ grid1BodyRowsCore:&quot;azc-grid-row &quot;+ cssClass()},'attr':{'aria-label':$ctl._getRowAriaLabel($data) &amp;&amp; ariaLabel(),'aria-rowindex':$ctl.getRowIndex($index()),'aria-disabled':$disabled,'data-grid-focusable':true,'tabindex':focused() ? $ctl.$tabIndex():'-1'},'css':{&quot;azc-row-disabled&quot;:$disabled}" aria-rowindex="1" data-grid-focusable="true">
@@ -61,7 +61,7 @@
 </table>
 <p>This is the result , notice that only one of them has a Homepage URL : </p>
 <figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/22/Microsoft-PIN-reset.png" alt="Pin reset snip" width="1623" height="94" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-xs.png 300w ,https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-sm.png 480w ,https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-md.png 768w ,https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-lg.png 1024w ,https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-xl.png 1360w ,https://drontoso.gr/media/posts/22/responsive/Microsoft-PIN-reset-2xl.png 1600w"></figure>
-<p>After adding the applications retry resetting the PIN from the lockscreen on your devices .</p>
+<p>Now retry resetting the PIN from the lockscreen on your devices .</p>
 <p>Don't forget to exclude these two enterprise Apps from any conditional access policies which enforce MFA (if you have policies with all apps selected exclude only these two) as they seem to interfere with the process and they are totally unnecessary since MFA is enforced either way .</p>
 <p>In my tests on Windows 10 it works perfectly fine but on Windows 11 the button Forgot My PIN does nothing . I read this is a known behavior and to workaround it you need to follow these steps : </p>
 <ul>
@@ -86,7 +86,7 @@
         <media:content url="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" medium="image" />
             <category term="Microsoft Baselines"/>
 
-        <updated>2024-03-16T12:47:00+02:00</updated>
+        <updated>2024-03-16T00:57:36+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" alt="connect-wireless-display" />
@@ -122,7 +122,7 @@
         <media:content url="https://drontoso.gr/media/posts/20/20162019featured-3.png" medium="image" />
             <category term="SCOM"/>
 
-        <updated>2023-12-05T16:37:45+02:00</updated>
+        <updated>2023-11-15T12:58:39+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/20/20162019featured-3.png" alt="" />
@@ -164,7 +164,7 @@
             <category term="Hybrid Configuration Wizard"/>
             <category term="Exchange"/>
 
-        <updated>2023-05-05T13:15:48+03:00</updated>
+        <updated>2023-05-05T12:31:54+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png" alt="" />
@@ -250,7 +250,7 @@
         <media:content url="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" medium="image" />
             <category term="ADConnect"/>
 
-        <updated>2023-05-05T13:15:54+03:00</updated>
+        <updated>2023-01-13T09:38:06+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" alt="" />
@@ -310,7 +310,7 @@
         <media:content url="https://drontoso.gr/media/posts/14/IntunePCKGR.png" medium="image" />
             <category term="Microsoft Intune"/>
 
-        <updated>2023-05-05T13:14:25+03:00</updated>
+        <updated>2022-10-31T13:05:40+02:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" alt="" />
@@ -427,7 +427,7 @@
             <category term="Microsoft Intune"/>
             <category term="M365 Apps"/>
 
-        <updated>2023-05-05T13:15:35+03:00</updated>
+        <updated>2022-10-25T15:10:56+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/13/MicrosoftIntuneM365AppsLocalSource.png" alt="" />
@@ -542,7 +542,7 @@
             <category term="PublicFolders Migration"/>
             <category term="Exchange"/>
 
-        <updated>2023-05-05T13:16:11+03:00</updated>
+        <updated>2022-10-25T11:38:45+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png" alt="" />
@@ -612,7 +612,7 @@
             <category term="PowerShellScripts"/>
             <category term="Exchange"/>
 
-        <updated>2023-05-05T13:16:29+03:00</updated>
+        <updated>2022-07-13T16:35:12+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/11/mailboxquotas.png" alt="" />
@@ -878,7 +878,7 @@
         <media:content url="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" medium="image" />
             <category term="CodeTwoOffice365Migration"/>
 
-        <updated>2023-05-05T13:16:39+03:00</updated>
+        <updated>2022-07-12T16:39:57+03:00</updated>
             <summary>
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" alt="" />
