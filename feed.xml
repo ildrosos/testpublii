@@ -3,12 +3,90 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2024-07-03T10:51:59+03:00</updated>
+    <updated>2024-07-09T17:09:50+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://drontoso.gr</id>
 
+    <entry>
+        <title>IMAP migration -  Yahoo (free) accounts to Microsoft 365 fails!</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/imap-migration-yahoo-free-accounts-to-microsoft-365/"/>
+        <id>https://drontoso.gr/imap-migration-yahoo-free-accounts-to-microsoft-365/</id>
+        <media:content url="https://drontoso.gr/media/posts/24/YahoomailIMAPMigrationFailed.jpeg" medium="image" />
+            <category term="M365Migration"/>
+            <category term="Exchange"/>
+
+        <updated>2024-07-09T17:08:33+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/24/YahoomailIMAPMigrationFailed.jpeg" alt="" />
+                    Are you trying to migrate IMAP Yahoo accounts to 365 and get errors ? Like incorrect username or password ? Follow these steps :&nbsp; If you are trying to create the migration endpoint for IMAP migrations to your Microsoft 365 tenant remember to use the&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://drontoso.gr/media/posts/24/YahoomailIMAPMigrationFailed.jpeg" class="type:primaryImage" alt="" /></p>
+                
+  <p>
+    Are you trying to migrate IMAP Yahoo accounts to 365 and get errors ? Like incorrect username or password ? Follow these steps :&nbsp;
+  </p>
+
+  <p>
+    
+  </p>
+
+  <p>
+    If you are trying to create the migration endpoint for IMAP migrations to your Microsoft 365 tenant remember to use the settings below :&nbsp;
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/24/MigrateImapEndpointSettings.png" height="521" width="307" alt="MigrationEndpoint Settings IMAP server"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-xs.png 300w ,https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-sm.png 480w ,https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-md.png 768w ,https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-lg.png 1024w ,https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-xl.png 1360w ,https://drontoso.gr/media/posts/24/responsive/MigrateImapEndpointSettings-2xl.png 1600w">
+      
+    </figure>
+
+  <ul>
+    <li>Next you will need to create your 365 users</li><li>Assign a license to the users</li><li>And finally prepare the CSV file&nbsp;&nbsp;</li>
+  </ul>
+
+  <p>
+    About the CSV file be careful with the columns :&nbsp;
+  </p>
+
+  <p>
+    Email address: column is your destination 365 mailbox email address.
+  </p>
+
+  <p>
+    Username: is your Yahoo account username without @ sign or anything else.
+  </p>
+
+  <p>
+    Password:Is your account's app password&nbsp; .
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/24/CSV.png" height="45" width="664" alt="CSV details"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/24/responsive/CSV-xs.png 300w ,https://drontoso.gr/media/posts/24/responsive/CSV-sm.png 480w ,https://drontoso.gr/media/posts/24/responsive/CSV-md.png 768w ,https://drontoso.gr/media/posts/24/responsive/CSV-lg.png 1024w ,https://drontoso.gr/media/posts/24/responsive/CSV-xl.png 1360w ,https://drontoso.gr/media/posts/24/responsive/CSV-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    
+  </p>
+
+  <p>
+    If you try to use your password instead you will get multiple errors . Go ahead and create an app password on this link&nbsp; : <a href="https://login.yahoo.com/myaccount/security/app-password/?intl=us&amp;lang=el-GR&amp;src=member-center&amp;activity=ybar-acctOverview&amp;pspid=794264123&amp;theme=light&amp;done=https%3A%2F%2Flogin.yahoo.com%2Fmyaccount%2Foverview%2F%3Fsrc%3Dym%26.done%3Dhttps%253A%252F%252Fmail.yahoo.com%252F%253F.intl%253Dgr%2526.lang%253Del-GR%26pspid%3D159628501%26activity%3Dybar-acctinfo%26.scrumb%3DJIurewD6tGX&amp;scrumb=e1Y.HyJAjDK&amp;backTo=%2Fsecurity%2F%3Fintl%3Dus%26lang%3Del-GR%26src%3Dmember-center%26activity%3Dybar-acctOverview%26pspid%3D794264123%26theme%3Dlight%26done%3Dhttps%253A%252F%252Flogin.yahoo.com%252Fmyaccount%252Foverview%252F%253Fsrc%253Dym%2526.done%253Dhttps%25253A%25252F%25252Fmail.yahoo.com%25252F%25253F.intl%25253Dgr%252526.lang%25253Del-GR%2526pspid%253D159628501%2526activity%253Dybar-acctinfo%2526.scrumb%253DJIurewD6tGX%26scrumb%3De1Y.HyJAjDK%26anchorId%3DappPasswordCard">AppPasswordsCreation</a>
+  </p>
+
+  <p>
+    After creating the app password write it down in your CSV file in Password column and Start your migration batch.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Windows Hello for Business Pin Reset Client / Service Production Applications are not working as expected - PIN reset is not working on Hybrid Joined devices.</title>
         <author>
@@ -865,39 +943,6 @@
 </div>
 </div>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Move CodeTwo Office 365 Migration tool to another computer (not an exchange server)</title>
-        <author>
-            <name>Ilias Drosos</name>
-        </author>
-        <link href="https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/"/>
-        <id>https://drontoso.gr/move-codetwo-office-365-migration-tool-to-another-computer-not-an-exchange-server/</id>
-        <media:content url="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" medium="image" />
-            <category term="CodeTwoOffice365Migration"/>
-
-        <updated>2022-07-12T16:39:57+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" alt="" />
-                    If you need to move CodeTwo Office 365 Migration tool to another computer but do not want to purge mailboxes which were already processed and start over (to avoid duplicates creation) you need to follow the workaround mentioned in the document below to migrate settings&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://drontoso.gr/media/posts/10/MoveCodeTwoToAnothercomputer.png" class="type:primaryImage" alt="" /></p>
-                <p>If you need to move CodeTwo Office 365 Migration tool to another computer but do not want to purge mailboxes which were already processed and start over (to avoid duplicates creation) you need to follow the workaround mentioned in the document below to migrate settings and cache objects of the software to the new computer: <a href="https://www.codetwo.com/userguide/exchange-rules-pro/reinstall-or-move.htm" target="_blank" rel="noopener noreferrer">CodeTwo Documentation</a></p>
-<p>What CodeTwo does not mention in the article is that you need to have Messaging Api And Collaboration Data Objects 1.2.1 installed on the computer in case you are trying to migrate from Exchange 2003 or 2007. </p>
-<p>If you already have office installed on your computer you need to remove it first before installing CodeTwo as per the guide's instructions. If you don't <strong>like I did </strong>Messaging Api won't be installed automatically and you won't be able to start the jobs or reconfigure the source server connection. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/MessagingAndCollaborationAPI-6.png" alt="MessagingAndCollaborationApi" width="1007" height="640" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/MessagingAndCollaborationAPI-6-2xl.png 1600w"></figure>
-<p>You can always remove and reinstall after removing Office from the "host" computer but you can also navigate to Add/Remove Programs and repair the installation of CodeTwo . If you do so a message will popup which indicates that Messaging Api And Collaboration Data Objects 1.2.1 is not installed on the computer and ask if you want the software to be installed. If you do so source server connection will be established .</p>
-<p>When you try to restart your jobs you will get another error indicating that a certificate with a particular thumbprint is missing from the computer so the jobs will fail to start. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/CodeTwoMissingCertError.png" alt="CodeTwoMissingCertError" width="385" height="168" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/CodeTwoMissingCertError-2xl.png 1600w"></figure>
-<p>You can then export the required certificate and import it to your "host" computer under User/Personal store. </p>
-<figure class="post__image"><img loading="lazy"  src="https://drontoso.gr/media/posts/10/ExportCodeTwoCertFromSourceServer.png" alt="ExportCodeTwoCertFromSourceServer" width="1034" height="622" sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xs.png 300w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-sm.png 480w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-md.png 768w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-lg.png 1024w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-xl.png 1360w ,https://drontoso.gr/media/posts/10/responsive/ExportCodeTwoCertFromSourceServer-2xl.png 1600w"></figure>
-<p>After that all migrations will start like you were in your old machine and mail duplicates won't exist. No need to purge your mailboxes either this way. </p>
             ]]>
         </content>
     </entry>
