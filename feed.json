@@ -21,11 +21,10 @@
                 "name": "Ilias Drosos"
             },
             "tags": [
-                   "M365Migration",
-                   "Exchange"
+                   "M365Migration"
             ],
             "date_published": "2024-07-09T17:08:33+03:00",
-            "date_modified": "2024-07-09T17:09:50+03:00"
+            "date_modified": "2024-07-10T09:17:05+03:00"
         },
         {
             "id": "https://drontoso.gr/windows-hello-for-business-pin-reset-client-service-production-applications-are-not-working-as-expected/",
@@ -86,11 +85,11 @@
                 "name": "Ilias Drosos"
             },
             "tags": [
-                   "Hybrid Configuration Wizard",
-                   "Exchange"
+                   "On Premises",
+                   "Hybrid Configuration Wizard"
             ],
             "date_published": "2023-05-05T12:31:54+03:00",
-            "date_modified": "2023-05-05T13:15:48+03:00"
+            "date_modified": "2024-07-10T09:26:22+03:00"
         },
         {
             "id": "https://drontoso.gr/adconnect-error-deletinglicensedgroupnotallowed/",
@@ -103,10 +102,11 @@
                 "name": "Ilias Drosos"
             },
             "tags": [
+                   "On Premises",
                    "ADConnect"
             ],
             "date_published": "2023-01-13T09:38:06+02:00",
-            "date_modified": "2023-05-05T13:15:54+03:00"
+            "date_modified": "2024-07-10T09:26:07+03:00"
         },
         {
             "id": "https://drontoso.gr/automatically-package-and-install-windows-apps-to-intune-devices-without-microsoft-win32-content-prep-tool/",
