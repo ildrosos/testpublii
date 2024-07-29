@@ -3,12 +3,85 @@
     <title>Drontoso</title>
     <link href="https://drontoso.gr/feed.xml" rel="self" />
     <link href="https://drontoso.gr" />
-    <updated>2024-07-10T09:26:22+03:00</updated>
+    <updated>2024-07-29T15:53:00+03:00</updated>
     <author>
         <name>Ilias Drosos</name>
     </author>
     <id>https://drontoso.gr</id>
 
+    <entry>
+        <title>Security settings Management for Microsoft Defender for Endpoint - Defender for Endpoint MDE client analyzer - [Error] EnrollmentStatusCheck 122034</title>
+        <author>
+            <name>Ilias Drosos</name>
+        </author>
+        <link href="https://drontoso.gr/security-settings-management-for-microsoft-defender-for-endpoint-defender-for-endpoint-mde-client-analyzer-error-enrollmentstatuscheck-122034/"/>
+        <id>https://drontoso.gr/security-settings-management-for-microsoft-defender-for-endpoint-defender-for-endpoint-mde-client-analyzer-error-enrollmentstatuscheck-122034/</id>
+        <media:content url="https://drontoso.gr/media/posts/25/Defender-for-endpoint-for-Servers3.jpeg" medium="image" />
+            <category term="Defender for Endpoint for Servers"/>
+
+        <updated>2024-07-29T15:53:00+03:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://drontoso.gr/media/posts/25/Defender-for-endpoint-for-Servers3.jpeg" alt="" />
+                    In a recent case I was trying to deploy MDE policies like AV policies and ASR policies for devices not onboarded to Intune like my Windows Servers .&nbsp; I noticed that in some cases the policies were showing as Pending in Intune report so I&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://drontoso.gr/media/posts/25/Defender-for-endpoint-for-Servers3.jpeg" class="type:primaryImage" alt="" /></p>
+                
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://drontoso.gr/media/posts/25/DeviceConfigManagementDetails-3.png" height="112" width="591" alt="MDEClient Analyzer"  sizes="(max-width: 48em) 100vw, 768px" srcset="https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-xs.png 300w ,https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-sm.png 480w ,https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-md.png 768w ,https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-lg.png 1024w ,https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-xl.png 1360w ,https://drontoso.gr/media/posts/25/responsive/DeviceConfigManagementDetails-3-2xl.png 1600w">
+      
+    </figure>
+
+  <p>
+    In a recent case I was trying to deploy MDE policies like AV policies and ASR policies for devices not onboarded to Intune like my Windows Servers .&nbsp;
+  </p>
+
+  <p>
+    I noticed that in some cases the policies were showing as Pending in Intune report so I decided to run MDEClientAnalyzer tool to troubleshoot and find out what was wrong .&nbsp;
+  </p>
+
+  <p>
+    The thing is that MDEClientAnalyzer showed an error which stated :&nbsp;
+  </p>
+
+    <blockquote class="blockquote">
+      122034	EnrollmentStatusCheck	Policies assignment failure	The device was successfully onboarded to Microsoft Defender for Endpoint and was able to download the endpoint security policies from MEM. However, there was a failure during the assignment of the policies.
+    </blockquote>
+
+  <p>
+    I started checking the docs to find the error code 122034 or the description of the error but came out with nothing .
+  </p>
+
+  <p>
+    The problem was that my servers were Windows RDS hosts . If you check the official documentation you will find a statement which says :
+  </p>
+
+    <blockquote class="blockquote">
+      Security settings management doesn't work on and isn't supported with the following devices:
+<br>
+<br>Non-persistent desktops, like Virtual Desktop Infrastructure (VDI) clients
+<br>Azure Virtual Desktop (AVD and formerly Windows Virtual Desktop, WVD)
+<br>Domain Controllers
+<br>32-bit versions of Windows
+    </blockquote>
+
+  <p>
+    <a href="https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration">https://learn.microsoft.com/en-us/mem/intune/protect/mde-security-integration</a>
+  </p>
+
+  <p>
+    That said this is the error you get when your server falls in either of these categories .In my case Non-persistent desktops .&nbsp;
+  </p>
+
+  <p>
+    So the error was not so self explanatory but now we know RDS servers MDE settings / policies cannot be configured through the new management feature called&nbsp;Security settings Management.&nbsp;
+  </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>IMAP migration -  Yahoo (free) accounts to Microsoft 365 fails!</title>
         <author>
@@ -676,273 +749,6 @@
   <p>
     
   </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Manage Exhange Online Mailbox Quotas based on group membership through Powershell</title>
-        <author>
-            <name>Ilias Drosos</name>
-        </author>
-        <link href="https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/"/>
-        <id>https://drontoso.gr/manage-exhange-online-mailbox-quotas-based-on-group-membership-through-powershell/</id>
-        <media:content url="https://drontoso.gr/media/posts/11/mailboxquotas.png" medium="image" />
-            <category term="PowerShellScripts"/>
-            <category term="Exchange"/>
-
-        <updated>2022-07-13T16:35:12+03:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://drontoso.gr/media/posts/11/mailboxquotas.png" alt="" />
-                    If you need to change Office365 mailbox quotas the only way to do so is via Powershell. In addition there is not way to control quotas via groups for example or any policy to assign in order to assisgn for example X GBs quota to&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://drontoso.gr/media/posts/11/mailboxquotas.png" class="type:primaryImage" alt="" /></p>
-                <p>If you need to change Office365 mailbox quotas the only way to do so is via Powershell. In addition there is not way to control quotas via groups for example or any policy to assign in order to assisgn for example X GBs quota to sales department . </p>
-<p>For that reason I created the Powershell script below . </p>
-<p>Feel free to change / share / comment .</p>
-<p>Script contains parts of the script originally posted by </p>
-<div>Johan Dahlbom from 365lab.net so credits to Johan :D </div>
-<div> </div>
-<p>Script Logic : </p>
-<ul>
-<li>Checks if the script was run under admin privileges otherwise informs the user to rerun with admin privs.</li>
-<li>Checks if MSOnline and Exchange Online Modules are installed . </li>
-<li>If they are not it tries to install them . </li>
-<li>Checks if there are active MSOnline and Exchange Online Sessions. If there are not it prompts you to enter credentials to connect .</li>
-<li>Asks the user to provide the name of the group which will get the following quota policy (of course you can change the values to suit your needs) : 
-<div>ProhibitSendQuota 4.5gb -ProhibitSendReceiveQuota 5gb -IssueWarningQuota 3.9gb</div>
-<div>Asks  the user to provide the script output folder (usefull when you run it against multiple users) . </div>
-</li>
-<li>Then it changes all group's members quota to the one mentioned above</li>
-<li>And also changes all other users quotas to 
-<div>ProhibitSendQuota 75gb -ProhibitSendReceiveQuota 80gb -IssueWarningQuota 74gb</div>
-</li>
-</ul>
-<p>The Script : </p>
-<div>
-<div>
-<div> </div>
-</div>
-</div>
-<div>
-<div>
-<div><code>function EditMailboxQuotas {</code></div>
-<div><code>    $OutPutFolder = "c:\temp\EditMailboxQuotas.txt"</code></div>
-<div><code>    $SpecificUserQuota=$null</code></div>
-<div><code>    $ConvertedQuotaToKB = $null</code></div>
-<div><code>    Write-Host "Please input the name of the group members of which will be assigned 5GB Quota"</code></div>
-<div><code>        $ADGroup = Read-Host -Prompt 'Input the group name'</code></div>
-<div><code>        Write-Host "Input the folder to export all script output - Please include file name as well" -ForegroundColor Green</code></div>
-<div><code>        $OutPutFolder = Read-Host -Prompt 'Folder path and file name to export output to "Example:c:\filename.txt"'</code></div>
-<div><code>       </code></div>
-<div><code>        Write-Host "Searching for Group " $ADGroup</code></div>
-<div><code>        Write-Output "Searching for Group " $ADGroup | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Import-Module AzureAD</code></div>
-<div><code>        Import-Module MSOnline</code></div>
-<div><code>        Import-Module ExchangeOnlineManagement</code></div>
-<div><code>        #Connect-MsolService</code></div>
-<div><code>        $MSOLAccountSku = Get-MsolAccountSku -ErrorAction Ignore -WarningAction Ignore</code></div>
-<div><code>            if (-not($MSOLAccountSku)) {</code></div>
-<div><code>                Connect-MsolService</code></div>
-<div><code>            }</code></div>
-<div><code>        $getsessions = Get-PSSession | Select-Object -Property State, Name</code></div>
-<div><code>        #Connect-ExchangeOnline</code></div>
-<div><code>        $IsconnectedToEOL = (@($getsessions) -like '@{State=Opened; Name=ExchangeOnlineInternalSession*').Count -gt 0</code></div>
-<div><code>            If ($IsconnectedToEOL -ne "True") {</code></div>
-<div><code>            Connect-ExchangeOnline</code></div>
-<div><code>            }  </code></div>
-<div><code>        #Connect-ExchangeOnline</code></div>
-<div><code>        $MSOLGroup = Get-MsolGroup -SearchString $ADGroup</code></div>
-<div><code>        Write-Host "Group's id is  " $MSOLGroup.ObjectId</code></div>
-<div><code>        Write-Output "Group's id is  " $MSOLGroup.ObjectId | Out-File $OutPutFolder -Append</code></div>
-<div><code>        write-host "------------- Configuring quotas for all users who are members of the group  " $ADGroup "-------------" -ForegroundColor Magenta</code></div>
-<div><code>        Write-Output "------------- Configuring quotas for all users who are members of the group  " $ADGroup "-------------" | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Read-Host -Prompt "Press any key to continue configuring quotas for all users who are members of the group to 5GB or CTRL+C to quit"</code></div>
-<div><code>        Start-Sleep -Seconds 3</code></div>
-<div><code>        $UsersWithinGroup = Get-JDMsolGroupMember($MSOLGroup.ObjectId)</code></div>
-<div><code>        if($null -ne $UsersWithinGroup)</code></div>
-<div><code>            {#Check if mailbox quota more than 5gb</code></div>
-<div><code>            foreach ($UserWithinGroup in $UsersWithinGroup)</code></div>
-<div><code>             {     $UserWithinGroup.EmailAddress</code></div>
-<div><code>                   $SpecificUserQuota = Get-Mailbox $UserWithinGroup.EmailAddress | Select-Object ProhibitSendReceiveQuota</code></div>
-<div><code>           </code></div>
-<div><code>                   $ConvertedQuotaToKB = Convert-QuotaStringToKB($SpecificUserQuota)</code></div>
-<div><code>             If($ConvertedQuotaToKB -gt 5242880 ) {#quota is more than 5gb</code></div>
-<div><code>                Write-Host "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota more than 5gb will check mailbox size" -ForegroundColor Cyan</code></div>
-<div><code>                Write-Output "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota more than 5gb will check mailbox size" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                ##Check if mailbox size is more than 4.5</code></div>
-<div><code>                $MailboxSize =  Get-MailboxStatistics $UserWithinGroup.EmailAddress | Select-Object TotalItemSize</code></div>
-<div><code>                $MailboxSizeInKB = Convert-QuotaStringToKB($MailboxSize)</code></div>
-<div><code>                    if ($MailboxSizeInKB -gt 4718592){#If user mailbox size is more than 4.5 GB</code></div>
-<div><code>                        Write-Host "Mailbox size is more than 4.5 GB No changes will be made " -ForegroundColor Red</code></div>
-<div><code>                        Write-Output "Mailbox size is more than 4.5 GB No changes will be made " -Append</code></div>
-<div><code>                        #do Nothing</code></div>
-<div><code>                            }    #If user mailbox size is more than 4.5 GB</code></div>
-<div><code>                        if ($MailboxSizeInKB -lt 4718592) {#Mailbox size is less than 4.5 GB</code></div>
-<div><code>                        Write-Host "CurrentUser" $UserWithinGroup.EmailAddress "has" $MailboxSizeInKB "KB mailbox size mailbox quota will be changed" -ForegroundColor Green</code></div>
-<div><code>                        Write-Output "CurrentUser" $UserWithinGroup.EmailAddress "has" $MailboxSizeInKB "KB mailbox size mailbox quota will be changed" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                        set-Mailbox $UserWithinGroup.EmailAddress -ProhibitSendQuota 4.5gb -ProhibitSendReceiveQuota 5gb -IssueWarningQuota 3.9gb</code></div>
-<div><code>                           </code></div>
-<div><code>                        $SpecificUserQuota = $null</code></div>
-<div><code>                            }   #Mailbox size is less than 4.5 GB</code></div>
-<div><code>                        }              </code></div>
-<div><code>                        elseif ($ConvertedQuotaToKB -eq 5242880 ) { #quota is 5gb</code></div>
-<div><code>                            ##Do nothing</code></div>
-<div><code>                         Write-Host "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota 5gb Nothing will be changed"  -ForegroundColor Red</code></div>
-<div><code>                         Write-Output "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota 5gb Nothing will be changed" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                         $SpecificUserQuota = $null</code></div>
-<div><code>                        }</code></div>
-<div><code>                   </code></div>
-<div><code>                        elseIf ($UserWithinGroup.UseDatabaseQuotaDefaults) #quota used from db defaults</code></div>
-<div><code>                        {   Write-Host "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "uses defaults changing"  -ForegroundColor Red</code></div>
-<div><code>                        Write-Output "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "uses defaults changing" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                       </code></div>
-<div><code>                        set-Mailbox $UserWithinGroup.EmailAddress -ProhibitSendQuota 4.5gb -ProhibitSendReceiveQuota 5gb -IssueWarningQuota 3.9gb</code></div>
-<div><code>                        }</code></div>
-<div><code>                        elseif ($ConvertedQuotaToKB -lt 5242880) #quota is less than 5gb and not db defaults</code></div>
-<div><code>                        {   Write-Host "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota less than 5gb Quotas will be changed"  -ForegroundColor Green</code></div>
-<div><code>                        Write-Output "CurrentUser" $UserWithinGroup.EmailAddress "has" $ConvertedQuotaToKB "KB Quota less than 5gb Quotas will be changed" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                        set-Mailbox $UserWithinGroup.EmailAddress -ProhibitSendQuota 4.5gb -ProhibitSendReceiveQuota 5gb -IssueWarningQuota 3.9gb</code></div>
-<div><code>                        }</code></div>
-<div><code>           </code></div>
-<div><code>        }#ForEach</code></div>
-<div><code>    }#If</code></div>
-<br>
-<div><code>        else {</code></div>
-<div><code>            #GroupIsEmpty</code></div>
-<div><code>        }</code></div>
-<br>
-<div><code>       </code></div>
-<div><code>        write-host "------------- Configuring quotas for all users EXCLUDING those who are members of the group " $ADGroup "-------------" -ForegroundColor Magenta</code></div>
-<div><code>        Write-Output write-host "------------- Configuring quotas for all users EXCLUDING those who are members of the group " $ADGroup "-------------" | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Read-Host -Prompt "Press any key to continue configuring quotas for ALL usersof the organization who are not members of the group to 80GB or CTRL+C to quit"</code></div>
-<div><code>        Start-Sleep -Seconds 3</code></div>
-<div><code>        $UsersWithinGroup = Get-JDMsolGroupMember($MSOLGroup.ObjectId)  </code></div>
-<div><code>        $EXOMailboxes = Get-EXOMailbox -RecipientTypeDetails UserMailbox</code></div>
-<div><code>    foreach($EXOMailbox in $EXOMailboxes)</code></div>
-<div><code>        {write-host "For mailbox  "$EXOMailbox.primarySMtpaddress -ForegroundColor White</code></div>
-<div><code>        Write-Output "For mailbox  "$EXOMailbox.primarySMtpaddress | Out-File $OutPutFolder -Append</code></div>
-<div><code>            if(!(Get-MsolGroupMember -GroupObjectId $MSOLGroup.ObjectId | Where-Object {$_.EmailAddress -eq $EXOMailbox.primarySMtpaddress}))</code></div>
-<div><code>                {write-host "Configuring Quota For mailbox  "$EXOMailbox.primarySMtpaddress " to 80GB" -ForegroundColor Green</code></div>
-<div><code>                Write-Output "Configuring Quota For mailbox  "$EXOMailbox.primarySMtpaddress " to 80GB" | Out-File $OutPutFolder -Append</code></div>
-<div><code>                set-Mailbox $EXOMailbox.primarySMtpaddress -ProhibitSendQuota 75gb -ProhibitSendReceiveQuota 80gb -IssueWarningQuota 74gb</code></div>
-<div><code>                     </code></div>
-<div><code>                }#if</code></div>
-<div><code>                elseif (Get-MsolGroupMember -GroupObjectId $MSOLGroup.ObjectId | Where-Object {$_.EmailAddress -eq $EXOMailbox.primarySMtpaddress})</code></div>
-<div><code>                {  </code></div>
-<div><code>                    write-host "For mailbox  "$EXOMailbox.primarySMtpaddress "Nothing will be changed because user is a member of the group" $ADGroup -ForegroundColor red  </code></div>
-<div><code>                    Write-Output "For mailbox  "$EXOMailbox.primarySMtpaddress "Nothing will be changed because user is a member of the group" $ADGroup | Out-File $OutPutFolder -Append</code></div>
-<div><code>                }</code></div>
-<div><code>               </code></div>
-<div><code>        }#ForEachEXOMailbox</code></div>
-<div><code>        Write-Host "All quotas configuration is finished . If you need to change quotas again re-run the script."  -ForegroundColor Gray</code></div>
-<div><code>        Write-Output  "All quotas configuration is finished . If you need to change quotas again re-run the script." | Out-File $OutPutFolder -Append</code></div>
-<div><code>}#FunctionEditMailboxQuotas  </code></div>
-<div><code>Function Convert-QuotaStringToKB() {</code></div>
-<br>
-<div><code>    Param([string]$CurrentQuota)</code></div>
-<br>
-<div><code>    [string]$CurrentQuota = ($CurrentQuota.Split("("))[1]</code></div>
-<div><code>    [string]$CurrentQuota = ($CurrentQuota.Split(" bytes)"))[0]</code></div>
-<div><code>    $CurrentQuota = $CurrentQuota.Replace(",","")</code></div>
-<div><code>    [int]$CurrentQuotaInKB = "{0:F0}" -f ($CurrentQuota/1024)</code></div>
-<br>
-<div><code>    return $CurrentQuotaInKB</code></div>
-<div><code>}</code></div>
-<br>
-<div><code>Function Get-JDMsolGroupMember {</code></div>
-<div> </div>
-<div><code>       </code></div>
-<div><code>        param(</code></div>
-<div><code>            [CmdletBinding(SupportsShouldProcess=$true)]</code></div>
-<div><code>            [Parameter(Mandatory=$true, ValueFromPipeline=$true,ValueFromPipelineByPropertyName=$true,Position=0)]</code></div>
-<div><code>            [ValidateScript({Get-MsolGroup -ObjectId $_})]</code></div>
-<div><code>            $ObjectId,</code></div>
-<div><code>            [switch]$Recursive</code></div>
-<div><code>        )</code></div>
-<div><code>        begin {</code></div>
-<div><code>            $MSOLAccountSku = Get-MsolAccountSku -ErrorAction Ignore -WarningAction Ignore</code></div>
-<div><code>            if (-not($MSOLAccountSku)) {</code></div>
-<div><code>                throw "Not connected to Azure AD, run Connect-MsolService"</code></div>
-<div><code>            }</code></div>
-<div><code>        }</code></div>
-<div><code>        process {</code></div>
-<div><code>            Write-Verbose -Message "Enumerating group members in group $ObjectId"</code></div>
-<div><code>            [array]$UserMembers = Get-MsolGroupMember -GroupObjectId $ObjectId -MemberObjectTypes User -All</code></div>
-<div><code>            if ($PSBoundParameters['Recursive']) {</code></div>
-<div><code>                $GroupsMembers = Get-MsolGroupMember -GroupObjectId $ObjectId -MemberObjectTypes Group -All</code></div>
-<div><code>                if ($GroupsMembers) {</code></div>
-<div><code>                    Write-Verbose -Message "$ObjectId have $($GroupsMembers.count) group(s) as members, enumerating..."</code></div>
-<div><code>                    $GroupsMembers | ForEach-Object -Process {</code></div>
-<div><code>                        Write-Verbose "Enumerating nested group $($_.Displayname) ($($_.ObjectId))"</code></div>
-<div><code>                        $UserMembers += Get-JDMsolGroupMember -Recursive -ObjectId $_.ObjectId</code></div>
-<div><code>                    }</code></div>
-<div><code>                }</code></div>
-<div><code>            }</code></div>
-<div><code>            Write-Output ($UserMembers | Sort-Object -Property EmailAddress -Unique)</code></div>
-<div><code>               </code></div>
-<div><code>        }</code></div>
-<div><code>        end {</code></div>
-<div><code>           </code></div>
-<div><code>        }</code></div>
-<div><code>    }</code></div>
-<br><br>
-<div><code>if (Get-Module -Name ExchangeOnlineManagement) {</code></div>
-<div><code>    Write-Host "Exchange online Module installed proceeding to next steps"</code></div>
-<div><code>    #Write-Output  "Exchange online Module installed proceeding to next steps"| Out-File $OutPutFolder -Append</code></div>
-<div><code>    Start-Sleep -Seconds 2</code></div>
-<div><code>}</code></div>
-<div><code>else {</code></div>
-<div><code>    Write-Host "Exchange online Module does not exist needs to be installed to proceed "</code></div>
-<div><code>    #Write-Output  "Exchange online Module does not exist needs to be installed to proceed " | Out-File $OutPutFolder -Append</code></div>
-<div><code>    Start-Sleep -Seconds 2</code></div>
-<div><code>    $isadmin = (New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)</code></div>
-<div><code>    if ($isadmin)</code></div>
-<div><code>    {   Write-Host "Installing Exchange online Module .... "</code></div>
-<div><code>    #Write-Output "Installing Exchange online Module .... " | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Install-module ExchangeOnlineManagement -Force        </code></div>
-<div><code>    }</code></div>
-<div><code>    else {</code></div>
-<div><code>        Write-Host "It Appears you did not run the script with administrative rights please run the script with administrative rights to proceed"</code></div>
-<div><code>       # Write-Output "It Appears you did not run the script with administrative rights please run the script with administrative rights to proceed" | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Pause</code></div>
-<div><code>    }</code></div>
-<div><code>}</code></div>
-<div><code>if (Get-Module -Name MSOnline) {</code></div>
-<div><code>        Write-Host "MSOnline online Module installed proceeding to next steps"</code></div>
-<div><code>       # Write-Output "MSOnline online Module installed proceeding to next steps" | Out-File $OutPutFolder -Append</code></div>
-<div><code>        Start-Sleep -Seconds 2</code></div>
-<div><code>    }</code></div>
-<div><code>else {</code></div>
-<div><code>        Write-Host "MSOnline does not exist needs to be installed to proceed "</code></div>
-<div><code>       # Write-Output "MSOnline does not exist needs to be installed to proceed " | Out-File $OutPutFolder -Append</code></div>
-<div><code>        $isadmin = (New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)</code></div>
-<div><code>        if ($isadmin)</code></div>
-<div><code>        {</code></div>
-<div><code>            Install-module MSOnline -Force</code></div>
-<div><code>        }</code></div>
-<div><code>        else {</code></div>
-<div><code>            Write-Host "It Appears you did not run the script with administrative rights please run the script with administrative rights to proceed"</code></div>
-<div><code>        #    Write-Output "It Appears you did not run the script with administrative rights please run the script with administrative rights to proceed" | Out-File $OutPutFolder -Append</code></div>
-<div><code>            Pause</code></div>
-<div><code>        }</code></div>
-<br>
-<div><code>   </code></div>
-<div><code>    }</code></div>
-<div><code>    EditMailboxQuotas</code></div>
-<div> </div>
-<div>
-<div>
-<div><strong>The script is provided “AS IS” with no guarantees, no warranties, and it confer no rights.</strong></div>
-<div> </div>
-</div>
-</div>
-</div>
-</div>
-<p> </p>
             ]]>
         </content>
     </entry>
