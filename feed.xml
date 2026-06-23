@@ -20,7 +20,7 @@
             <category term="Defender for Endpoint for Servers"/>
 
         <updated>2024-07-29T15:53:00+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/25/Defender-for-endpoint-for-Servers3.jpeg" alt="" />
                     In a recent case I was trying to deploy MDE policies like AV policies and ASR policies for devices not onboarded to Intune like my Windows Servers .&nbsp; I noticed that in some cases the policies were showing as Pending in Intune report so I&hellip;
@@ -93,7 +93,7 @@
             <category term="M365Migration"/>
 
         <updated>2024-07-09T17:08:33+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/24/YahoomailIMAPMigrationFailed.jpeg" alt="" />
                     Are you trying to migrate IMAP Yahoo accounts to 365 and get errors ? Like incorrect username or password ? Follow these steps :&nbsp; If you are trying to create the migration endpoint for IMAP migrations to your Microsoft 365 tenant remember to use the&hellip;
@@ -170,7 +170,7 @@
             <category term="Microsoft Intune"/>
 
         <updated>2024-07-02T15:30:40+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/22/Win11LockScreenPINReset1.jpeg" alt="Windows11 - I Forgot My PIn image" />
                     If you are trying to deploy the applications published from Microsoft to enable Pin Reset from lockscreen on your Entra ID Joined / Entra Hybrid Joined devices you are probably reading this article : https://learn.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/pin-reset?tabs=intune Following the guide to enable the PIN reset you need&hellip;
@@ -237,7 +237,7 @@
             <category term="Microsoft Baselines"/>
 
         <updated>2024-03-16T00:57:36+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/21/Connect-to-wireless-display.jpg" alt="connect-wireless-display" />
                     Recently I run into a problem with one of my customers . After deploying the latest MIcrosoft Windows Baselines users were not able to use Connect to wireless diplay. I suspected that something in the baselines broke this functionality so I started searching within the&hellip;
@@ -273,7 +273,7 @@
             <category term="SCOM"/>
 
         <updated>2023-11-15T12:58:39+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/20/20162019featured-3.png" alt="" />
                     While upgrading a SCOM 2016 instance to 2019 I came up to a strange error . While checking the prerequisites I verified that my 2016 SQL SP3 server was enough to proceed with the the installation . But while starting the installation I got an&hellip;
@@ -315,7 +315,7 @@
             <category term="Hybrid Configuration Wizard"/>
 
         <updated>2023-05-05T12:31:54+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/17/HCW-CertNotFound-3.png" alt="" />
                     Recently I had a case where a customer wanted to add a second exchange server in HCW to host receive and send connectors for redundancy .&nbsp; The problem was that the server was in a different site and child domain than the "primary" exchange server&hellip;
@@ -402,7 +402,7 @@
             <category term="ADConnect"/>
 
         <updated>2023-01-13T09:38:06+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/15/DeletingLicensedGroupNotAllowedADConnect-2.png" alt="" />
                     If you ever delete a group in Azure AD which is used for Group Licensing purposes you will receive an error in ADConnect similar to the screenshot above .&nbsp; The error states : "DeletingLicensedGroupNotAllowed" The problem is that AD Connect does not specifically tell you&hellip;
@@ -462,7 +462,7 @@
             <category term="Microsoft Intune"/>
 
         <updated>2022-10-31T13:05:40+02:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/14/IntunePCKGR.png" alt="" />
                     What if I told you that there is a service which can package and install all popular Windows Apps as Win32 Apps to your Intune Devices with just a few clicks? What if it can also maintain and automatically update the apps whenever a new&hellip;
@@ -579,7 +579,7 @@
             <category term="M365 Apps"/>
 
         <updated>2022-10-25T15:10:56+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/13/MicrosoftIntuneM365AppsLocalSource.png" alt="" />
                     Did you know you can initiate Microsoft 365 Apps via Intune when the source files are in your file server? Nor did I.&nbsp; Usecase : Customer needs to be able to push Microsoft 365 Apps via intune but network bandwidth is a huge stopper when&hellip;
@@ -694,7 +694,7 @@
             <category term="Exchange"/>
 
         <updated>2022-10-25T11:38:45+03:00</updated>
-            <summary>
+            <summary type="html">
                 <![CDATA[
                         <img src="https://drontoso.gr/media/posts/12/microsoft-exchange-logo_resized.png" alt="" />
                     So you are trying to run SourceSideVaildation.ps1 script provided from MS&nbsp;and find out OrphanedMPF objects that the script indicates that need to be cleaned up . The output of the script shows something like this :&nbsp; As granikos explains in more detail : https://granikos.eu/exchange-public-folder-meso-object-not-deleted/ So&hellip;
